@@ -1,0 +1,10 @@
+<div class="card mb-3">
+    <img class="card-img-top" src="{{ include.product.image | prepend: "/images/" |prepend: include.product.collection | relative_url }}" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">{{ include.product.title }}</h4>
+      <p class="card-text">{{ include.product.color }}</p>
+      <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+    </div>
+  </div>

@@ -1,0 +1,13 @@
+body {
+  background-color: lightgray;
+}
+
+#carouselExampleIndicators {
+  height: calc(100vh - 80px);
+  overflow: hidden;
+  .carousel-item {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+}

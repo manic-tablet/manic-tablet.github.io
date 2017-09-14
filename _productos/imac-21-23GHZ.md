@@ -1,7 +1,7 @@
 ---
 title: "iMAc 21,5 pulgadas"
 summary: "Procesador a 2,3 GHz 1 TB de almacenamiento"
-image: imac-21.png
+image: imac-27.png
 precio: 0€
 ---
 

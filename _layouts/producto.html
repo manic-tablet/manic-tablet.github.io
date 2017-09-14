@@ -1,3 +1,36 @@
 ---
 layout: default
 ---
+
+<article class="product">
+  <header class="text-center">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.summary }}</p>
+  </header>
+  <img class="d-block mx-auto" src="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}" alt="{{ page.title }}">
+  <p class="font-weight-bold">Características:</p>
+  <ul>
+    {% for f in page.features %}
+    <li>{{ f }}</li>
+    {% endfor %}
+  </ul>
+  <p class="font-weight-bold">Conexiones:</p>
+  <ul>
+    {% for c in page.conexiones %}
+    <li>{{ c }}</li>
+    {% endfor %}
+  </ul>
+  <p class="font-weight-bold">Dimensiones:</p>
+  <ul>
+    {% for d in page.dimensiones %}
+    <li>{{ d }}</li>
+    {% endfor %}
+  </ul>
+  <p class="font-weight-bold">Contenido de la caja:</p>
+  <ul>
+    {% for b in page.box %}
+    <li>{{ b }}</li>
+    {% endfor %}
+  </ul>
+  <p class="font-weight-bold">Precio: <span class="font-weight-normal">{{ page.precio }}</span></p>
+</article>

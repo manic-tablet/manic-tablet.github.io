@@ -1,11 +1,11 @@
 ---
 title: "MacBook Pro de 13 pulgadas"
-summary: "Procesador a 2,3 GHz 128 GB de almacenamiento"
+summary: "Procesador a 2,3 GHz 256 GB de almacenamiento"
 features:
-  - Intel Core i5  de  doble  núcleo  a  2,3  GHz  de  séptima generación
+  - Intel Core i5 de doble núcleo a 2,3 GHz de séptima generación
   - Turbo Boost de hasta 3,6 GHz
   - 8 GB de memoria LPDDR3 a 2.133 MHz
-  - 128 GB de almacenamiento SSD1
+  - 256 GB de almacenamiento SSD
   - Tarjeta gráfica Intel Iris Plus Graphics 640
   - Dos puertos Thunderbolt
 conexiones:

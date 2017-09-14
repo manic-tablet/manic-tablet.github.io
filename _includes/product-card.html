@@ -1,10 +1,10 @@
 <div class="card mb-3">
     <img class="card-img-top" src="{{ include.product.image | prepend: "/images/" |prepend: include.product.collection | relative_url }}" alt="Card image cap">
     <div class="card-body">
-      <h4 class="card-title">{{ include.product.title }}</h4>
-      <p class="card-text">{{ include.product.color }}</p>
+      <h4 class="card-title h5 text-center">{{ include.product.title }}</h4>
+      <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ include.product.precio }}</button>
       <div class="card-footer">
-      <small class="text-muted"><a href="{{ include.product.url }}">ver más</a></small>
-    </div>
+        <small class="text-muted"><a href="{{ include.product.url }}">ver más</a></small>
+      </div>
     </div>
   </div>

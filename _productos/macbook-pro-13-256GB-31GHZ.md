@@ -7,7 +7,8 @@ features:
   - 8 GB de memoria LPDDR3 a 2.133 MHz
   - 256 GB de almacenamiento SSD
   - Tarjeta gráfica Intel Iris Plus Graphics 650
-  - Dos puertos Thunderbolt
+  - Cuatro puertos Thunderbolt
+  - Touch	Bar	y	Touch	ID
 conexiones:
   - Dos puertos Thunderbolt 3 (USB-C) compatibles con Carga
   - DisplayPort

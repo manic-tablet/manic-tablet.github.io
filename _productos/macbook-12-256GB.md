@@ -8,7 +8,7 @@ features:
   - 256 GB de almacenamiento SSD
   - Tarjeta gráfica Intel HD Graphics 615
   - Teclado con mecanismo de mariposa de segunda generación
-Conexiones:  
+conexiones:  
   - Conexión inalámbrica Wi-Fi 802.11ac; compatible con las normas 802.11a/b/g/n del IEEE
   - Tecnología inalámbrica Bluetooth 4.2
   - Puerto USB-C compatible con Carga
@@ -20,7 +20,7 @@ Conexiones:
   - Altavoces estéreo
   - Doble micrófono
   - Toma para auriculares de 3,5 mm
-Dimensiones y peso:
+dimensiones:
   - "Alto: de 0,35 a 1,31 cm"
   - "Ancho: 28,05 cm"
   - "Fondo: 19,65 cm"

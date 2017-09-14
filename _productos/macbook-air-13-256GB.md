@@ -19,7 +19,7 @@ conexiones:
   - Altavoces estéreo
   - Doble micrófono
   - Toma para auriculares de 3,5 mm
-Dimensiones y peso:
+dimensiones:
   - "Alto: de 0,3 a 1,7 cm"
   - "Ancho: 32,5 cm"
   - "Fondo: 22,7 cm"

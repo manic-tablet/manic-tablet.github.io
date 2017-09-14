@@ -2,8 +2,9 @@
     <img class="card-img-top" src="{{ include.product.image | prepend: "/images/" |prepend: include.product.collection | relative_url }}" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title h5 text-center">{{ include.product.title }}</h4>
+      <p class="text-center">{{ include.product.summary }}</p>
       <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ include.product.precio }}</button>
-      <div class="card-footer">
+      <div>
         <small class="text-muted"><a href="{{ include.product.url }}">ver más</a></small>
       </div>
     </div>

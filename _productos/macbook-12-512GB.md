@@ -1,14 +1,21 @@
 ---
 title: "MacBook de 12 pulgadas"
 summary: "Procesador a 1,3 GHz 512 GB de almacenamiento"
-features:
+image: macbook-12.png
+precio: 0€
+---
+
+## Características:
+
   - Intel Core i5 de doble núcleo a 1,3 GHz (7.a generación)
   - Turbo Boost de hasta 3,2 GHz
   - 8 GB de memoria LPDDR3 a 1.866 MHz
   - 512 GB de almacenamiento SSD
   - Tarjeta gráfica Intel HD Graphics 615
   - Teclado con mecanismo de mariposa de segunda generación
-Conexiones:  
+
+## Conexiones:
+
   - Conexión inalámbrica Wi-Fi 802.11ac; compatible con las normas 802.11a/b/g/n del IEEE
   - Tecnología inalámbrica Bluetooth 4.2
   - Puerto USB-C compatible con Carga
@@ -20,15 +27,15 @@ Conexiones:
   - Altavoces estéreo
   - Doble micrófono
   - Toma para auriculares de 3,5 mm
-dimensiones:
+
+## Dimensiones:
   - "Alto: de 0,35 a 1,31 cm"
   - "Ancho: 28,05 cm"
   - "Fondo: 19,65 cm"
   - "Peso: 0,92 kg"
-box:  
+
+## Contenido de la caja:
+
   - MacBook
   - Adaptador de corriente USB-C de 29 W
   - Cable de carga USB-C (2 metros)
-image: macbook-12.png
-precio: 0€
----

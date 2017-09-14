@@ -1,7 +1,12 @@
 ---
 title: "MacBook Pro de 15 pulgadas"
 summary: "Procesador a 2,9 GHz 256 GB de almacenamiento"
-features:
+image: macbook-pro-15.png
+precio: 0€
+---
+
+## Características:
+
   - Intel Core i7 de doble núcleo a 2,8 GHz de séptima generación
   - Turbo Boost de hasta 3,8 GHz
   - 16 GB de memoria LPDDR3 a 2.133 MHz
@@ -9,7 +14,9 @@ features:
   - Radeon Pro 560 con 4 GB de memoria
   - Cuatro puertos Thunderbolt
   - Touch Bar y Touch ID
-conexiones:
+
+## Conexiones:
+
   - Cuatro puertos Thunderbolt 3 (USB-C) compatibles con carga
   - DisplayPort
   - Thunderbolt (hasta 40 Gb/s)
@@ -24,12 +31,13 @@ conexiones:
   - Con ratón tecnología Force Touch, control preciso del cursor y sensibilidad a la presión.
   - Teclado Touch Bar con sensor Touch ID integrado y sensor de luz ambiental.
   - Hasta 10 horas de de autonomía
-dimensiones:
-  - "Peso: 1,87 kg"
-box:
+
+## Dimensiones:
+
+  - Peso: 1,87 kg
+
+## Contenido de la caja:
+
   - MacBook Pro de 15 pulgadas
   - Adaptador de corriente USB-C de 61 W
   - Cable de carga USB-C (2 metros)
-image: macbook-pro-15.png
-precio: 0€
----

@@ -1,7 +1,12 @@
 ---
 title: "MacBook Pro de 13 pulgadas"
 summary: "Procesador a 3,1 GHz 512 GB de almacenamiento"
-features:
+image: macbook-pro-13.png
+precio: 0€
+---
+
+## Características:
+
   - Intel Core i5 de doble núcleo a 3,1 GHz de séptima generación
   - Turbo Boost de hasta 3,5 GHz
   - 8 GB de memoria LPDDR3 a 2.133 MHz
@@ -9,7 +14,9 @@ features:
   - Tarjeta gráfica Intel Iris Plus Graphics 650
   - Cuatro puertos Thunderbolt
   - Touch	Bar	y	Touch	ID
-conexiones:
+
+## Conexiones:
+
   - Dos puertos Thunderbolt 3 (USB-C) compatibles con Carga
   - DisplayPort
   - Thunderbolt (hasta 40 Gb/s)
@@ -25,15 +32,16 @@ conexiones:
   - Salida de vídeo digital Thunderbolt 3
   - Salida DisplayPort nativa a través de USB-C
   - Salidas VGA, HDMI y Thunderbolt 2 mediante adaptadores (se venden por separado)
-dimensiones:
-  - "Alto: 1,49 cm"
-  - "Ancho: 30,41 cm"
-  - "Fondo: 21,24 cm"
-  - "Peso: 1,37 kg"
-box:
+
+## Dimensiones:
+
+  - Alto: 1,49 cm
+  - Ancho: 30,41 cm
+  - Fondo: 21,24 cm
+  - Peso: 1,37 kg
+
+## Contenido de la caja:
+
   - MacBook Pro de 13 pulgadas
   - Adaptador de corriente USB-C de 61 W
   - Cable de carga USB-C (2 metros)
-image: macbook-pro-13.png
-precio: 0€
----

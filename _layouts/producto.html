@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
+  {% assign modelo = page.modelo | downcase | replace: ' ', '' %}
+  <a class="breadcrumb-item" href="{{ modelo | prepend: "modelos/" | relative_url }}">{{ page.modelo }}</a>
+  <span class="breadcrumb-item active">{{ page.title }}</span>
+</nav>
+
 <article class="product">
   <header class="text-center">
     <h1>{{ page.title }}</h1>

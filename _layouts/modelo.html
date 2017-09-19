@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
+  <span class="breadcrumb-item active">{{ page.title }}</span>
+</nav>
+
 <div class="card-deck">
 {% assign productos = site.productos | where: 'modelo', page.title %}
 {% for p in productos %}

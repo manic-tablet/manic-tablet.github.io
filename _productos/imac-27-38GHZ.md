@@ -2,6 +2,7 @@
 title: "iMAc 27 pulgadas"
 summary: "Pantalla 5K, procesador a 3,8 GHz, 2 TB de almacenamiento"
 image: imac-27.png
+modelo: iMac
 precio: 0€
 ---
 

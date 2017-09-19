@@ -47,6 +47,9 @@ collections:
   productos:
     output: true
     permalink: /:collection/:path/
+  modelos:
+    output: true
+    permalink: /:collection/:path
   slides:
 
 defaults:
@@ -55,3 +58,10 @@ defaults:
       type: productos
     values:
       layout: producto
+      image: "552x370.png"
+  - scope:
+      path: ""
+      type: modelos
+    values:
+      layout: modelo
+      image: "552x370.png"

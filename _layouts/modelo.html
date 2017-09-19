@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="card-deck">
+{% assign productos = site.productos | where: 'modelo', page.title %}
+{% for p in productos %}
+  <div class="col-sm-6 col-lg-3">
+    {% include product-card.html producto=p %}
+  </div>
+{% endfor %}
+</div>

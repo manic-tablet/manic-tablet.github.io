@@ -2,6 +2,7 @@
 title: "MacBook Pro de 13 pulgadas"
 summary: "Procesador a 3,1 GHz 256 GB de almacenamiento"
 image: macbook-pro-13.png
+modelo: MacBook Pro
 precio: 0€
 ---
 

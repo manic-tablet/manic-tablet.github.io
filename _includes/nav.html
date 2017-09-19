@@ -1,14 +1,14 @@
-<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">{{ site.title }}</a>
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light pb-3">
+  <a class="navbar-brand ml-5" href="/"><img src="{{ "logo.jpg" | prepend: "assets/" | relative_url }}" alt="{{ site.title }}"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto small">
       {% for item in site.data.gamas %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ "#" | append: item | relative_url }}">{{ item }}</a>
+        <a class="nav-link" href="{{ "#" | append: item | relative_url }}">{{ item | upcase }}</a>
       </li>
       {% endfor %}
     </ul>

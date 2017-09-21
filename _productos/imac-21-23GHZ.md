@@ -6,7 +6,7 @@ modelo: iMac
 precio: 0€
 ---
 
-## Caracteŕisticas:
+## Características:
 
   - Intel Core i5 de doble núcleo a 2,3 GHz de séptima generación
   - Turbo Boost de hasta 3,6 GHz

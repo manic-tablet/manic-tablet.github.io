@@ -3,7 +3,8 @@ layout: default
 ---
 
 <nav class="breadcrumb mt-5">
-  <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
+  <a class="breadcrumb-item" href="http://manictablet.com/">Inicio</a>
+  <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Tienda</a>
   {% assign modelo = page.modelo | downcase | replace: ' ', '' %}
   <a class="breadcrumb-item" href="{{ modelo | prepend: "modelos/" | relative_url }}">{{ page.modelo }}</a>
   <span class="breadcrumb-item active">{{ page.title }}</span>

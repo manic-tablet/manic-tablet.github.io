@@ -6,9 +6,14 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto small">
-      {% for item in site.data.gamas %}
+      {% for item in site.data.menu %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ "#" | append: item | relative_url }}">{{ item | upcase }}</a>
+        {% if item[1].name == "Tienda" %}
+          {% assign href = item[1].link | relative_url %}
+        {% else %}
+          {% assign href = item[1].link %}
+        {% endif %}
+        <a class="nav-link" href="{{ href }}">{{ item[1].name | upcase }}</a>
       </li>
       {% endfor %}
     </ul>

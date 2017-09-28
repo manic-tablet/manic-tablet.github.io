@@ -6,7 +6,11 @@
       <!--<img class="d-block w-100" src="{{ s.image | prepend: "/images/" | prepend: s.collection | relative_url }}" alt="">-->
       <div class="carousel-caption d-none d-md-block">
         <h3>{{ s.title }}</h3>
-        <p>{{ s.text }}</p>
+        <p>{{ s.text }}
+          {% if s.link %}
+            <a class="btn btn-primary btn-lg" href="{{ s.link | relative_url }}" role="button">{{ s.linktext }}</a>
+          {% endif %}
+        </p>
       </div>
     </div>
     {% endfor %}

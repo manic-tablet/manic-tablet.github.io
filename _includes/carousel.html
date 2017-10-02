@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="mainCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {% for s in site.slides %}
     {% assign image = s.image | prepend: "/images/" | prepend: s.collection | relative_url | prepend: "'" | append: "'" %}
@@ -6,25 +6,24 @@
       <!--<img class="d-block w-100" src="{{ s.image | prepend: "/images/" | prepend: s.collection | relative_url }}" alt="">-->
       <div class="carousel-caption d-none d-md-block">
         <h3>{{ s.title }}</h3>
-        <p>{{ s.text }}
-          {% if s.link %}
-            <a class="btn btn-primary btn-lg" href="{{ s.link | relative_url }}" role="button">{{ s.linktext }}</a>
-          {% endif %}
-        </p>
+        <p>{{ s.text }}</p>
+        {% if s.link %}
+          <a class="btn btn-primary btn-lg" href="{{ s.link | relative_url }}" role="button">{{ s.linktext }}</a>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
   </div>
   <ol class="carousel-indicators">
     {% for s in site.slides %}
-    <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index0 == 0 %}active{% endif %}"></li>
+    <li data-target="#mainCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index0 == 0 %}active{% endif %}"></li>
     {% endfor %}
   </ol>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>

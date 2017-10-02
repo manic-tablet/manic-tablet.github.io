@@ -19,3 +19,5 @@ layout: home
     </div>
   </div>
 </div>
+
+{% include promo-curso-gratis.html %}

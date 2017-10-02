@@ -1,5 +1,7 @@
 ---
-title: Slide 2
+title: ¡Curso gratis!
 image: slide-2.jpg
-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+text: Llévate un curso de Manic Tablet gratis por la compra de cualquier producto.
+link: /#promo
+linktext: Saber más
 ---

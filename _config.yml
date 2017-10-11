@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 facebook:
-  app_id: 100004828006757
+  app_id: manictablet
 
 logo: /assets/logo.jpg
 

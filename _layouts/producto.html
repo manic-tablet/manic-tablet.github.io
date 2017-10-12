@@ -40,7 +40,7 @@
     <meta property="og:brand" content="Apple" />
     <meta property="product:price:amount" content="{{ page.precio }}" />
     <meta property="product:price:currency" content="EUR" />
-    <meta property="og:availability" content="instock" />
+
     <meta property="fb:app_id" content="{{ site.facebook.app_id}}" />
 
 
@@ -71,7 +71,7 @@
       </header>
       <img class="d-block mx-auto img-fluid mb-2" src="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}" alt="{{ page.title }}">
       {{ content }}
-      <p class="font-weight-bold">Precio: <span class="font-weight-normal">{{ page.precio }}</span></p>
+      <p class="font-weight-bold">Precio: <span class="font-weight-normal">{{ page.precio }}€</span></p>
     </article>
 
     {% include social-share.html %}

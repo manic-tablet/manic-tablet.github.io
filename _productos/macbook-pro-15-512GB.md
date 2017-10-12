@@ -3,7 +3,7 @@ title: "MacBook Pro de 15 pulgadas"
 summary: "Procesador a 2,9 GHz 256 GB de almacenamiento"
 image: macbook-pro-15.png
 modelo: MacBook Pro
-precio: 0€
+precio: 0
 ---
 
 ## Características:

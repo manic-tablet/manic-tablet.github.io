@@ -3,7 +3,7 @@ title: "MacBook de 12 pulgadas"
 summary: "Procesador a 1,2 GHz 256 GB de almacenamiento"
 image: macbook-12.png
 modelo: MacBook
-precio: 0€
+precio: 0
 ---
 
 ## Características:

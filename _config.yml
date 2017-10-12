@@ -64,6 +64,8 @@ defaults:
     values:
       layout: producto
       image: "552x370.png"
+      seo:
+        type: Product
   - scope:
       path: ""
       type: modelos

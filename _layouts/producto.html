@@ -15,7 +15,18 @@ layout: default
   <meta itemprop="name" content="{{ page.title }}">
   <meta itemprop="url" content="{{ page.url }}">
   <meta itemprop="image" content="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}">
-  <meta itemprop="description" content="{{ page.sumary }}">
+  <meta itemprop="description" content="{{ page.summary }}">
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:description" content="{{ page.summary }}" />
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}" />
+  <meta property="og:type" content="Product" />
+  <meta property="fb:app_id" content="{{ site.facebook.app_id}}" />
+
+  <meta name="twitter:card" content="summary" />
 
 
   <header class="text-center">

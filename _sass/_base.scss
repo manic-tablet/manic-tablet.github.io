@@ -26,10 +26,20 @@ body {
   //background-color: black !important;
   .social a {
     text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    &:hover {
+      color: gray;
+      border-color: gray;
+    }
   }
   .icon-facebook {
-    border: solid 2px black;
-    border-radius: 50%;
-    padding: 1px;
+
   }
+}
+
+.icon-circle {
+  border: solid 2px black;
+  border-radius: 50%;
+  padding: 0.25em;
 }

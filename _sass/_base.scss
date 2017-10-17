@@ -31,10 +31,10 @@ body {
     &:hover {
       color: gray;
       border-color: gray;
+      .icon-circle {
+        border-color: gray; 
+      }
     }
-  }
-  .icon-facebook {
-
   }
 }
 

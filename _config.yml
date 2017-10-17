@@ -32,6 +32,12 @@ author: manictablet
 
 logo: /assets/logo.jpg
 
+openingHours:
+  date: Mo-Fr
+  mornings: 09:00-13:00
+  afternoons: 15:00-20:00
+  extra: "Martes: Servicio Técnico a domicilio 15:00-20:00"
+
 # Build settings
 markdown: kramdown
 theme: minima

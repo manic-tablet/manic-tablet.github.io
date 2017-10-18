@@ -34,7 +34,7 @@ precio: 0
   - Fondo: 22,7 cm
   - Peso: 1,35 kg
 
-# Contenido de la caja:
+## Contenido de la caja:
 
   - MacBook Air
   - Adaptador de corriente

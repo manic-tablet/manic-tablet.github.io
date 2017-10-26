@@ -1,21 +1,9 @@
-inicio:
-  name: "Inicio"
-  link: "http://manictablet.com/#about-us"
-servicios:
-  name: "Servicios"
-  link: "http://manictablet.com/#services"
-cursos:
-  name: "Cursos"
-  link: "http://manictablet.com/#our-work"
-tienda:
-  name: "Tienda"
-  link: "/"
-reservas:
-  name: "Reservas"
-  link: "http://manictablet.com/#the-team"
-donde:
-  name: "Dónde"
-  link: "http://manictablet.com/#clients"
-contacto:
-  name: "Contacto"
-  link: "http://manictablet.com/?page_id=388"
+compra:
+  name: "Compra"
+  link: "/#Mac"
+vende:
+  name: "Vende"
+  link: "/#Vende"
+segundamano:
+  name: "Segunda Mano"
+  link: "/segundamano"

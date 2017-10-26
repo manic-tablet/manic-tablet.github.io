@@ -42,7 +42,7 @@
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:image" content="{{ page.collection  | append: "/images/" | append:  page.image | absolute_url }}" />
     <meta property="og:type" content="product" />
-    <meta property="og:brand" content="Apple" />
+    <meta property="og:brand" content="{{ page.brand }}" />
     <meta property="product:price:amount" content="{{ page.precio }}" />
     <meta property="product:price:currency" content="EUR" />
     <meta property="og:availability" content="instock" />
@@ -57,9 +57,9 @@
     <div class="container p-5">
 
     <nav class="breadcrumb mt-5">
-      <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
-      {% assign modelo = page.modelo | downcase | replace: ' ', '' %}
-      <a class="breadcrumb-item" href="{{ modelo | prepend: "modelos/" | relative_url }}">{{ page.modelo }}</a>
+      <a class="breadcrumb-item" href="http://manictablet.com/">Inicio</a>
+      <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Tienda</a>
+      <a class="breadcrumb-item" href="{{ page.collection | relative_url }}">{{ page.collection }}</a>
       <span class="breadcrumb-item active">{{ page.title }}</span>
     </nav>
 

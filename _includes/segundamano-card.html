@@ -1,0 +1,11 @@
+<div class="card mb-3">
+  {% assign image = p.image | prepend: "/images/" | prepend: p.collection %}
+  <img class="card-img-top" src="{{image | relative_url }}" alt="{{ p.brand }}">
+  <div class="card-body">
+    <h4 class="card-title h5 text-center">{{ p.title }}</h4>
+    <p class="text-center">{{ p.summary }}</p>
+  </div>
+  <div class="card-footer text-right">
+    <small class="text-muted"><a href="{{ p.url }}">ver más</a></small>
+  </div>
+</div>

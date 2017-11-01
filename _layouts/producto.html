@@ -77,7 +77,7 @@
           <p>{{ page.summary }}</p>
         </header>
         <main>
-          <img class="d-block mx-auto img-fluid mb-2" src="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}" alt="{{ page.title }}">
+          <img class="d-block mx-auto img-fluid mb-5" src="{{ page.collection  | append: "/images/" | append:  page.image | relative_url }}" alt="{{ page.title }}">
           {{ content }}
           <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
             <span itemprop="price" class="invisible">{{ page.precio }} €</span>

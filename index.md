@@ -6,7 +6,7 @@ layout: home
 ---
 
 <!-- MAC -->
-<div id="Mac" class="container p-5">
+<div id="mac" class="container p-5">
   <h2 class="display-2 text-center text-uppercase mb-5">Elije tu Mac</h2>
   <div class="row">
     <div class="card-deck mx-auto">

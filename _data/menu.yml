@@ -1,9 +1,9 @@
 compra:
   name: "Compra"
-  link: "/#Mac"
+  link: "/#mac"
 vende:
   name: "Venta"
-  link: "/#Vende"
+  link: "/#vende"
 reparacion:
   name: "Reparación"
   link: "/"

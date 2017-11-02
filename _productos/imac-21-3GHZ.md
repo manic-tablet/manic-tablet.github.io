@@ -6,7 +6,7 @@ modelo: iMac
 precio: 0
 ---
 
-## Características:
+## Características
 
   - Intel Core i5 de doble núcleo a 3 GHz de séptima generación
   - Turbo Boost de hasta 3,5 GHz
@@ -16,7 +16,7 @@ precio: 0
   - Dos puertos Thunderbolt 3
   - Pantalla Retina 4K P3 con 4.096 por 2.304 píxeles
 
-## Conexiones:
+## Conexiones
 
   - Micrófono
   - Toma para auriculares de 3,5 mm
@@ -32,7 +32,7 @@ precio: 0
   - Gigabit Ethernet 10/100/1000BASE-T (conector RJ-45)
   - Ranura de seguridad Kensington
 
-## Dimensiones:
+## Dimensiones
 
   - Alto: 45 cm
   - Ancho: 52,8 cm

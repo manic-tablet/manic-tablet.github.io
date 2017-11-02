@@ -6,7 +6,7 @@ modelo: MacBook Pro
 precio: 0
 ---
 
-## Características:
+## Características
 
   - Intel Core i5  de  doble  núcleo  a  2,3  GHz  de  séptima generación
   - Turbo Boost de hasta 3,6 GHz
@@ -15,7 +15,7 @@ precio: 0
   - Tarjeta gráfica Intel Iris Plus Graphics 640
   - Dos puertos Thunderbolt
 
-## Conexiones:
+## Conexiones
 
   - Dos puertos Thunderbolt 3 (USB-C) compatibles con Carga
   - DisplayPort
@@ -33,14 +33,14 @@ precio: 0
   - Salida DisplayPort nativa a través de USB-C
   - Salidas VGA, HDMI y Thunderbolt 2 mediante adaptadores (se venden por separado)
 
-## Dimensiones:
+## Dimensiones
 
   - Alto: 1,49 cm
   - Ancho: 30,41 cm
   - Fondo: 21,24 cm
   - Peso: 1,37 kg
 
-## Contenido de la caja:
+## Contenido de la caja
 
   - MacBook Pro de 13 pulgadas
   - Adaptador de corriente USB-C de 61 W

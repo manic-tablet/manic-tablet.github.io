@@ -6,7 +6,7 @@ modelo: MacBook Pro
 precio: 0
 ---
 
-## Características:
+## Características
 
   - Intel Core i7 de doble núcleo a 2,8 GHz de séptima generación
   - Turbo Boost de hasta 3,8 GHz
@@ -16,7 +16,7 @@ precio: 0
   - Cuatro puertos Thunderbolt
   - Touch Bar y Touch ID
 
-## Conexiones:
+## Conexiones
 
   - Cuatro puertos Thunderbolt 3 (USB-C) compatibles con carga
   - DisplayPort
@@ -33,11 +33,11 @@ precio: 0
   - Teclado Touch Bar con sensor Touch ID integrado y sensor de luz ambiental.
   - Hasta 10 horas de de autonomía
 
-## Dimensiones:
+## Dimensiones
 
   - Peso: 1,87 kg
 
-# Contenido de la caja:
+# Contenido de la caja
 
   - MacBook Pro de 15 pulgadas
   - Adaptador de corriente USB-C de 61 W

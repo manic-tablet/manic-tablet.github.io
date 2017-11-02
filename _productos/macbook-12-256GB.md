@@ -6,7 +6,7 @@ modelo: MacBook
 precio: 0
 ---
 
-## Características:
+## Características
 
   - Intel Core m3 de doble núcleo a 1,2 GHz (7.a generación)
   - Turbo Boost de hasta 3 GHz
@@ -15,7 +15,7 @@ precio: 0
   - Tarjeta gráfica Intel HD Graphics 615
   - Teclado con mecanismo de mariposa de segunda generación
 
-## Conexiones:  
+## Conexiones
 
   - Conexión inalámbrica Wi-Fi 802.11ac; compatible con las normas 802.11a/b/g/n del IEEE
   - Tecnología inalámbrica Bluetooth 4.2
@@ -29,13 +29,13 @@ precio: 0
   - Doble micrófono
   - Toma para auriculares de 3,5 mm
 
-## Dimensiones:
+## Dimensiones
   - Alto: de 0,35 a 1,31 cm
   - Ancho: 28,05 cm
   - Fondo: 19,65 cm
   - Peso: 0,92 kg
 
-## Contenido de la caja:
+## Contenido de la caja
 
   - MacBook
   - Adaptador de corriente USB-C de 29 W

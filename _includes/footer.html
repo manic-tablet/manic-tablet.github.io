@@ -5,7 +5,10 @@
   <div class="row">
     <div class="col-xs-12 col-md-3 order-2 order-md-1 mx-auto text-center">
       <p><span class="icon-phone h1"></span></p>
-			<p><span itemprop="telephone">(+34) 646 369 041</span></p>
+			<p>
+        <span class="d-sm-none" itemprop="telephone"><a href="tel:+34646369041">(+34) 646 369 041</a></span>
+        <span class="d-none d-sm-block" itemprop="telephone">(+34) 646 369 041</span>
+      </p>
       <p class="lead">TELÉFONO - WHATSAPP</p>
       <p><span class="icon-mail"></span></p>
       <p><a href="mailto:{{ site.email }}" itemprop="email">{{ site.email}}</a></p>

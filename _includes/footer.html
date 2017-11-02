@@ -19,10 +19,20 @@
       <p><span itemprop="postalCode">20003</span> - <span itemprop="addressLocality">DONOSTIA / SAN SEBASTIÁN</span></p>
       <p><span itemprop="addressRegion">Guipúzcoa</span></p>
     </div>
-    <div class="col-xs-12 col-md-3 order-3 order-md-3 mx-auto text-center">
-      <p><span class="icon-clock h1"></span></p>
-      <time itemprop="openingHours" datetime="{{ site.openingHours.date }} {{ site.openingHours.mornings }} {{ site.openingHours.afternoons }}">Lunes a Viernes <strong>9.00 - 13.00 &amp; 15.00 - 20.00</strong></time>
-      <p>(Martes Servicio Técnico a domicilio 15.00 - 20.00)</p>
+    <div class="col-xs-12 col-md-3 order-3 order-md-3 mx-auto">
+      <p class="text-center"><span class="icon-clock h1"></span></p>
+      <time itemprop="openingHours" datetime="{{ site.openingHours.date }} {{ site.openingHours.mornings }} {{ site.openingHours.afternoons }}"></time>
+      <div class="row justify-content-between">
+        <div class="col-6">Lunes a Viernes</div>
+        <div class="col-6 text-right"><strong>9.00 - 13.00</strong></div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 text-right"><strong>15.00 - 20.00</strong></div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-6">Martes Servicio Técnico a domicilio</div>
+        <div class="col-6 text-right"><strong>15.00 - 20.00</strong></div>
+      </div>
     </div>
   </div>
   <div class="row my-5">

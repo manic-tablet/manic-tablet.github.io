@@ -28,9 +28,9 @@ body {
     text-decoration: none;
     color: black;
     font-size: 1.3em;
-    &:hover {
+    &:hover span {
       color: gray;
-      border-color: gray;
+      border-color: gray !important;
       .icon-circle {
         border-color: gray;
       }
@@ -42,6 +42,13 @@ body {
   border: solid 2px black;
   border-radius: 50%;
   padding: 0.25em;
+}
+.border-dark {
+  border-color: black !important;
+}
+.rounded-circle {
+  padding: 0.25em;
+  border-width: 2px !important;
 }
 
 .product {

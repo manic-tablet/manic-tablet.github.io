@@ -3,10 +3,9 @@
   $('#sharrre').sharrre({
     share: {
       facebook: true,
-      twitter: true,
-      pinterest: true,
+      twitter: true
     },
-    template:'<span>Compartir esta página:</span><div><a href="#" class="social-icon si-borderless si-facebook"><i class="icon-facebook"></i><i class="icon-facebook"></i></a><a href="#" class="social-icon si-borderless si-twitter"><i class="icon-twitter"></i><i class="icon-twitter"></i></a><a href="#" class="social-icon si-borderless si-pinterest"><i class="icon-pinterest"></i><i class="icon-pinterest"></i></a></div>',
+    template:'<span>Compartir esta página:</span><div><a href="#" class="social-icon si-borderless si-facebook"><i class="icon-facebook"></i><i class="icon-facebook"></i></a><a href="#" class="social-icon si-borderless si-twitter"><i class="icon-twitter"></i><i class="icon-twitter"></i></a></div>',
     enableHover: false,
     enableTracking: false,
     url: document.location.href,
@@ -19,9 +18,6 @@
       });
       $(api.element).on('click', '.si-twitter', function() {
         api.openPopup('twitter');
-      });
-      $(api.element).on('click', '.si-pinterest', function() {
-        api.openPopup('pinterest');
       });
     }
   });

@@ -23,22 +23,3 @@ layout: home
 {% include promo-curso-gratis.html %}
 
 {% include vende.html %}
-
-<!-- Segunda mano -->
-<div id="SegundaMano" class="container p-5">
-  <h2 class="display-2 text-center text-uppercase mb-5">Segunda mano</h2>
-  <div class="row">
-    <div class="card-deck mx-auto">
-      {% for p in site.segundamano limit:4 %}
-        {% if site.segundamano.size == 1 %}
-          <div class="col-sm-6 col-lg-6">
-        {% else %}
-          <div class="col-sm-6 col-lg-3">
-        {% endif %}
-            {% include segundamano-card.html %}
-          </div>
-      {% endfor %}
-    </div>
-    <a href="/segundamano/" class="btn btn-large btn-primary mx-auto mt-5">Ver todos</a>
-  </div>
-</div>

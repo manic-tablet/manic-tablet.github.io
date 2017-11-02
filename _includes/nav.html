@@ -1,5 +1,11 @@
 <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light pb-3 fixed-top">
-  <a class="navbar-brand ml-5" href="/"><img src="{{ site.logo | relative_url }}" alt="{{ site.title }}"></a>
+  <a class="navbar-brand ml" href="/">
+    <picture>
+      <source srcset="/assets/logo-small.png" media="(max-width: 320px)">
+      <source srcset="{{ site.logo | relative_url }}">
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+    </picture>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,13 +13,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto small">
       {% for item in site.data.menu %}
-      <li class="nav-item">
+      <li class="nav-item btn btn-dark ml-1 mb-1">
         {% if item[1].name == "Tienda" %}
           {% assign href = item[1].link | relative_url %}
         {% else %}
           {% assign href = item[1].link %}
         {% endif %}
-        <a class="nav-link" href="{{ href }}">{{ item[1].name | upcase }}</a>
+        <a class="nav-link text-white" href="{{ href }}">{{ item[1].name | upcase }}</a>
       </li>
       {% endfor %}
     </ul>

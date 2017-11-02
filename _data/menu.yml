@@ -2,8 +2,14 @@ compra:
   name: "Compra"
   link: "/#Mac"
 vende:
-  name: "Vende"
+  name: "Venta"
   link: "/#Vende"
-segundamano:
-  name: "Segunda Mano"
-  link: "/segundamano"
+reparacion:
+  name: "Reparación"
+  link: "/"
+cursos:
+  name: "Cursos"
+  link: "http://manictablet.com/#our-work"
+contacto:
+  name: "Contacto"
+  link: "/#main-footer"

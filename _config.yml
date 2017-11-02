@@ -68,9 +68,6 @@ collections:
     output: true
     permalink: /:collection/:path
   slides:
-  segundamano:
-    output: true
-    permalink: /:collection/:path
 
 defaults:
   - scope:
@@ -87,11 +84,3 @@ defaults:
     values:
       layout: modelo
       image: "552x370.png"
-  - scope:
-      path: ""
-      type: segundamano
-    values:
-      layout: segundamano
-      image: "552x370.png"
-      seo:
-        type: Product

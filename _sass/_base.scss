@@ -110,3 +110,9 @@ body {
     position: relative;
   }
 }
+
+.display-3 {
+  @media (max-width: 420px) {
+    font-size: 3.5rem;
+  }
+}

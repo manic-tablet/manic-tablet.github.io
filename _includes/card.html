@@ -1,15 +1,14 @@
 {% assign item = include.card %}
-<div class="card mb-3">
-  {% assign image = item.image | prepend: "/images/" | prepend: item.collection %}
-  <img class="card-img-top" src="{{ image | relative_url }}" alt="{{ item.title }}">
-  <div class="card-body">
-    <h4 class="card-title h5 text-center">{{ item.title }}</h4>
-    <p class="text-center">{{ item.summary }}</p>
-    {% if item.precio %}
-    <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ item.precio }}</button>
-    {% endif %}
+<a href="{{ item.url }}">
+  <div class="card mb-3">
+    {% assign image = item.image | prepend: "/images/" | prepend: item.collection %}
+    <img class="card-img-top" src="{{ image | relative_url }}" alt="{{ item.title }}">
+    <div class="card-body">
+      <h4 class="card-title h5 text-center">{{ item.title }}</h4>
+      <p class="text-center">{{ item.summary }}</p>
+      {% if item.precio %}
+      <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ item.precio }}</button>
+      {% endif %}
+    </div>
   </div>
-  <div class="card-footer text-right">
-    <small class="text-muted"><a href="{{ item.url }}">ver</a></small>
-  </div>
-</div>
+</a>

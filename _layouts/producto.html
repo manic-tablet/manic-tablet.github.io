@@ -58,6 +58,12 @@
 
     <nav class="breadcrumb mt-5">
       <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
+      <a class="breadcrumb-item" href="{{ "/#compra" | relative_url }}">Compra</a>
+
+      {% assign modelos = site.modelos | where: 'title', page.modelo %}
+      {% assign gama = modelos[0].gama | downcase | replace: ' ', '' %}
+      <a class="breadcrumb-item" href="{{ gama | prepend: "gamas/" | relative_url }}">{{ modelos[0].gama }}</a>
+
       {% assign modelo = page.modelo | downcase | replace: ' ', '' %}
       <a class="breadcrumb-item" href="{{ modelo | prepend: "modelos/" | relative_url }}">{{ page.modelo }}</a>
       <span class="breadcrumb-item active">{{ page.title }}</span>

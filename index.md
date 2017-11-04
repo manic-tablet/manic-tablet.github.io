@@ -5,18 +5,12 @@
 layout: home
 ---
 
-<!-- MAC -->
-<div id="mac" class="container p-5">
-  <h2 class="display-2 text-center text-uppercase mb-5">Elije tu Mac</h2>
+<!-- GAMAS DE PRODUCTOS -->
+<div id="compra" class="container p-5">
+  <h2 class="display-2 text-center text-uppercase mb-5">Elije tu Dispositivo</h2>
   <div class="row">
-    <div class="card-deck mx-auto">
-      {% assign modelos = site.modelos | where: 'gama', 'Mac' | sort: 'orden' %}
-      {% for m in modelos %}
-          <div class="col-sm-6 col-lg-3">
-            {% include model-card.html modelo=m %}
-          </div>
-      {% endfor %}
-    </div>
+    {% assign items = site.gamas | sort: 'orden' %}
+    {% include cards.html cards=items %}
   </div>
 </div>
 

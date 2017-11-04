@@ -61,12 +61,15 @@ plugins:
 #  - package.json
 
 collections:
-  productos:
+  gamas:
     output: true
     permalink: /:collection/:path/
   modelos:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
+  productos:
+    output: true
+    permalink: /:collection/:path/
   slides:
 
 defaults:
@@ -83,4 +86,10 @@ defaults:
       type: modelos
     values:
       layout: modelo
+      image: "552x370.png"
+  - scope:
+      path: ""
+      type: gamas
+    values:
+      layout: gama
       image: "552x370.png"

@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  position: relative;
 }
 
 #main-nav {
@@ -7,12 +8,8 @@ body {
   background-color: white !important;
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 
-  .btn-dark {
-    background-color: black;
-    &:hover {
-      background-color: #007bff;
-      border-color: #007bff;
-    }
+  .nav-link.active {
+    color: #007bff;
   }
 }
 
@@ -78,36 +75,21 @@ body {
   }
 }
 
-#Vende {
+#vende {
   color: white;
   &:before {
     background-image: url('/assets/old-phones.jpg');
   }
-}
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: url('/assets/old-phones.jpg');
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
 
-.parallax {
-  position : relative;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-top: -6rem;
-    margin-bottom: -6rem;
-    left: 0;
-    background-attachment : fixed;
-    background-position   : top center;
-    background-size       : cover;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-  }
   article {
-    position: relative;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1rem;
   }
 }
 

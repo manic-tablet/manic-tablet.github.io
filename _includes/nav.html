@@ -11,15 +11,15 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto small">
+    <ul class="navbar-nav ml-auto mr-5 small">
       {% for item in site.data.menu %}
-      <li class="nav-item btn btn-dark ml-1 mb-1">
-        {% if item[1].name == "Tienda" %}
-          {% assign href = item[1].link | relative_url %}
+      <li class="nav-item ml-1 mb-1">
+        {% if page.layout != 'home' %}
+          {% assign href = item[1].link | absolute_url %}
         {% else %}
           {% assign href = item[1].link %}
         {% endif %}
-        <a class="nav-link text-white" href="{{ href }}">{{ item[1].name | upcase }}</a>
+        <a class="nav-link" href="{{ href }}">{{ item[1].name | upcase }}</a>
       </li>
       {% endfor %}
     </ul>

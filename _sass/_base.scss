@@ -36,9 +36,14 @@ body {
     height: 100vh;
   }
   .carousel-caption {
-    background-color: rgba(0,0,0,0.8);
+    //background-color: rgba(0,0,0,0.8);
     padding-left: 1rem;
     padding-right: 1rem;
+    top: 5rem;
+    h3, p {
+      font-weight: bolder;
+      text-shadow: 2px 2px 3px black;
+    }
   }
 }
 
@@ -125,4 +130,17 @@ body {
       box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
   }
+}
+
+.overlay {
+  background: url(/assets/02.png);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  margin: 0;
 }

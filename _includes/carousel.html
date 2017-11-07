@@ -2,12 +2,13 @@
   <div class="carousel-inner">
     {% for s in site.slides %}
     <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}" style="background-image: url(/assets/images/slides/{{ s.image }})">
+    <div class="overlay"></div>
       <!--<img class="d-block w-100" src="{{ s.image | prepend: "/images/" | prepend: s.collection | relative_url }}" alt="">-->
       <div class="carousel-caption">
-        <h3>{{ s.title }}</h3>
-        <p>{{ s.text }}</p>
+        <h3 class="display-1 text-uppercase">{{ s.title }}</h3>
+        <p class="h3  text-uppercase">{{ s.text }}</p>
         {% if s.link %}
-          <a class="btn btn-primary btn-lg" href="{{ s.link | relative_url }}" role="button">{{ s.linktext }}</a>
+          <a class="btn btn-dark btn-lg" href="{{ s.link | relative_url }}" role="button">{{ s.linktext }}</a>
         {% endif %}
       </div>
     </div>

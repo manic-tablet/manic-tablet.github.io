@@ -1,5 +1,5 @@
 ---
-title: Una nueva forma de compra
+title: .
 image: slide-1.jpg
 text: una compra para toda la vida
 link: /#compra

@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<nav class="breadcrumb mt-5">
-  <a class="breadcrumb-item" href="{{ "/" | relative_url }}">Inicio</a>
-  <a class="breadcrumb-item" href="{{ "/#compra" | relative_url }}">Compra</a>
-  {% assign gama = page.gama | downcase | replace: ' ', '' %}
-  <a class="breadcrumb-item" href="{{ gama | prepend: "gamas/" | relative_url }}">{{ page.gama }}</a>
-  <span class="breadcrumb-item active">{{ page.title }}</span>
-</nav>
+{% include gama-navigation.html %}
+
+<header class="my-5 text-center">
+  <h1 class="display-1">{{ page .title }}</h1>
+</header>
 
 {% assign items = site.productos | where: 'modelo', page.title | sort: 'orden' %}
 {% include cards.html cards=items %}

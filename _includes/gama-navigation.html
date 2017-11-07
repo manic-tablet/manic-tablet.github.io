@@ -1,0 +1,29 @@
+<ul class="nav nav-pills justify-content-center mt-5">
+  {% assign gamas = site.gamas | sort: 'orden' %}
+  {% assign match_gama = page.title | downcase %}
+  {% assign match_modelo = page.gama | downcase %}
+  {% if page.modelo != null %}
+    {% assign modelo = site.modelos | where: 'title', page.modelo %}
+    {% assign match_modelo = modelo[0].gama | downcase %}
+  {% endif %}
+
+  {% for gama in gamas %}
+
+    {% assign title = gama.title | downcase %}
+
+    {% if title == match_gama %}
+      {% assign active = " active" %}
+    {% else %}
+      {% assign active = "" %}
+    {% endif %}
+
+    {% if title == match_modelo %}
+      {% assign active = " active" %}
+    {% endif %}
+
+
+  <li class="nav-item">
+    <a class="nav-link{{ active }}" href="{{ gama.url }}">{{ gama.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,5 +1,5 @@
 ---
-title: Slide 4
+title: ...
 image: slide-1.jpg
-text: lorem ipsum dolor
+text: ...
 ---

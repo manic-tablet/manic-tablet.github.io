@@ -1,5 +1,5 @@
 ---
-title: Slide 3
+title: .
 image: slide-2.jpg
-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+text: .
 ---

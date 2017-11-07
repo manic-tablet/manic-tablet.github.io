@@ -1,8 +1,7 @@
 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {% for s in site.slides %}
-    {% assign image = s.image | prepend: "/images/" | prepend: s.collection | relative_url | prepend: "'" | append: "'" %}
-    <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}" style="background-image: url({{ image }})">
+    <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}" style="background-image: url(/assets/images/slides/{{ s.image }})">
       <!--<img class="d-block w-100" src="{{ s.image | prepend: "/images/" | prepend: s.collection | relative_url }}" alt="">-->
       <div class="carousel-caption">
         <h3>{{ s.title }}</h3>

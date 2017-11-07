@@ -63,10 +63,10 @@ plugins:
 collections:
   gamas:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:title/
   modelos:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:title/
   productos:
     output: true
     permalink: /:collection/:path/

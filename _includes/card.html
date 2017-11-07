@@ -1,8 +1,7 @@
 {% assign item = include.card %}
 <a href="{{ item.url }}">
   <div class="card mb-3">
-    {% assign image = item.image | prepend: "/images/" | prepend: item.collection %}
-    <img class="card-img-top" src="{{ image | relative_url }}" alt="{{ item.title }}">
+    <img class="card-img-top" src="/assets/images/{{ item.collection }}/{{item.image }}" alt="{{ item.title }}">
     <div class="card-body">
       <h4 class="card-title h5 text-center">{{ item.title }}</h4>
       <p class="text-center">{{ item.summary }}</p>

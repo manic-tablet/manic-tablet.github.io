@@ -8,8 +8,21 @@ body {
   background-color: white !important;
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 
+  .nav-link {
+    color: black;
+  }
   .nav-link.active {
     color: #007bff;
+  }
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-right: 0;
+      padding-left: 1.5rem;
+    }
+    .nav-item {
+      margin-top: 1rem;
+      border-bottom: solid 1px #f0f0f0;
+    }
   }
 }
 

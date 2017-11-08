@@ -148,6 +148,11 @@ body {
 }
 
 #about  {
+  header {
+    .lead {
+      text-align: justify;
+    }
+  }
   figure {
     max-width: 50%;
     min-width: 200px;

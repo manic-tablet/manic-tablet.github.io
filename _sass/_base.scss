@@ -57,8 +57,9 @@ body {
   }
   .carousel-caption {
     //background-color: rgba(0,0,0,0.8);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    //padding-left: 1rem;
+    //padding-right: 1rem;
+    padding: 0;
     h3, p {
       font-weight: bolder;
       text-shadow: 2px 2px 3px black;

@@ -112,6 +112,9 @@ body {
   }
 }
 
+#promo {
+}
+
 #vende {
   color: white;
   padding-top: 12rem;
@@ -122,8 +125,11 @@ body {
   background-size       : cover;
 
   article {
-    background-color: rgba(0,0,0,0.8);
+    //background-color: rgba(0,0,0,0.8);
     padding: 1rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px black;
+    color: #f0f0f0;
   }
 }
 
@@ -135,7 +141,7 @@ body {
 
 .display-3 {
   @media (max-width: 420px) {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 }
 

@@ -197,9 +197,10 @@ body {
 }
 
 #about  {
+  text-align: center;
   header {
     .lead {
-      text-align: justify;
+      //text-align: justify;
     }
   }
   figure {

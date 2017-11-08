@@ -8,6 +8,21 @@ body {
   background-color: white !important;
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 
+  .navbar-brand {
+    max-width: 60%;
+
+    figure {
+      padding: 0.25rem 0.75rem;
+      margin-bottom: 0;
+      img {
+        margin: 0;
+      }
+    }
+    @media (max-width: 420px) {
+      padding: 0 !important;
+    }
+  }
+
   .nav-link {
     color: black;
   }

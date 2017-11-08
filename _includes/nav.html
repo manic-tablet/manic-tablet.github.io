@@ -1,10 +1,8 @@
-<nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light pb-3 fixed-top">
-  <a class="navbar-brand pl-4 mr-0" href="/">
-    <picture>
-      <source srcset="/assets/logo-small.png" media="(max-width: 420px)">
-      <source srcset="{{ site.logo | relative_url }}">
-      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-    </picture>
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light py-0 fixed-top">
+  <a class="navbar-brand px-4 mr-0" href="/">
+    <figure class="figure">
+      <img src="/assets/logo.svg" class="figure-img img-fluid" alt="{{ site.title }}">
+    </figure>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

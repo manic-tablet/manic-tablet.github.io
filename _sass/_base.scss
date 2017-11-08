@@ -120,12 +120,16 @@ body {
 #vende {
   position: relative;
   color: white;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
   background-image: url('/assets/phones.jpg');
   background-attachment : fixed;
   background-position   : top center;
   background-size       : cover;
+  @media (max-width: 420px) {
+    padding-top: 12rem;
+    padding-bottom: 12rem
+  }
 
   article {
     //background-color: rgba(0,0,0,0.8);

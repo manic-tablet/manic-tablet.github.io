@@ -16,6 +16,8 @@ body {
       margin-bottom: 0;
       img {
         margin: 0;
+        padding-left: 1rem;
+        max-height: 64px;
       }
     }
     @media (max-width: 420px) {

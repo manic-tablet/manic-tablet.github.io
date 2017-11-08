@@ -2,6 +2,6 @@
 title: .
 image: slide-1.jpg
 text: .
-link: /#compra
+link: /#about
 linktext: ¿Quienes somos?
 ---

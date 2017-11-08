@@ -1,3 +1,6 @@
+nosotros:
+  name: "Nosotros"
+  link: "#about"
 compra:
   name: "Compra"
   link: "#compra"

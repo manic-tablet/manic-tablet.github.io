@@ -116,6 +116,7 @@ body {
 }
 
 #vende {
+  position: relative;
   color: white;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -126,10 +127,12 @@ body {
 
   article {
     //background-color: rgba(0,0,0,0.8);
+    position: relative;
     padding: 1rem;
     font-weight: bolder;
     text-shadow: 2px 2px 3px black;
     color: #f0f0f0;
+    z-index: 10;
   }
 }
 
@@ -156,7 +159,7 @@ body {
 }
 
 .overlay {
-  background: url(/assets/02.png);
+  background: url(/assets/images/overlays/01.png);
   position: absolute;
   top: 0;
   bottom: 0;

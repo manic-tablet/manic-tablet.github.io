@@ -1,5 +1,5 @@
 ---
-title: ...
-image: slide-1.jpg
-text: ...
+title:
+image: slide-4.jpg
+text:
 ---

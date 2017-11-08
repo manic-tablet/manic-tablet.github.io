@@ -13,15 +13,15 @@ layout: home
       <article>
         <header class="text-center mb-5">
           <h1 class="mb-5 display-1">UNA NUEVA FORMA DE COMPRA</h1>
-          <p class="lead">A principios del 2014 Manic Tablet nace de la pasión por las nuevas tecnologías. Una pasión con el objetivo de enseñar a cada persona, de cualquier edad, como sacar el máximo partido de sus dispositivos. Ya sean, móviles, tabletas, ordenadores… o todo tipo de aparato relacionado con las nuevas tecnologías.</p>
+          <p class="lead">A principios del 2014 <b>Manic Tablet</b> nace de la pasión por las nuevas tecnologías. Una pasión con el objetivo de enseñar a cada persona, de cualquier edad, como sacar el máximo partido de sus dispositivos. Ya sean, <a href="/iphone">móviles</a>, <a href="/ipad">tabletas</a>, <a href="/mac">ordenadores</a>… o todo <a href="/accesorios">tipo de aparato</a> relacionado con las nuevas tecnologías.</p>
         </header>
         <main>
-          <h2 class="text-center mb-5">¿Porque elegir Manic Tablet?</h2>
-          <p>En Manic Tablet ofrecemos una nueva forma de compra.</p>
+          <h2 class="text-center mb-5">¿Porque elegir <b>Manic Tablet</b>?</h2>
+          <p>En <b>Manic Tablet</b> ofrecemos una nueva forma de compra.</p>
           <p>Evitamos que seas un solo cliente mas. Le damos mas importancia al servicio de postventa que a la propia venta. Nos preocupamos de que el cliente sea capaz de sacarle el máximo rendimiento a su producto.</p>
-          <p>Para ello por la compra de cualquier producto, ofrecemos un curso gratuito a cada uno de nuestros clientes. Un curso individual adecuado a sus necesidades, en el que se resolverán todas las dudas, y de esta manera puedan comenzar con sus primeros pasos, aprendiendo a manejar su nuevo dispositivo.</p>
-          <p>Por otro lado al comprar los productos en la tienda, evitamos los intermediarios para que puedan recibir un mejor precio.</p>
-          <p>Y también disfrutarán de una atención personalizada en cualquier momento para solucionar todos los futuros problemas</p>
+          <p>Para ello por la compra de cualquier producto, ofrecemos un <b>curso gratuito</b> a cada uno de nuestros clientes. Un curso individual adecuado a sus necesidades, en el que se resolverán todas las dudas, y de esta manera puedan comenzar con sus primeros pasos, aprendiendo a manejar su nuevo dispositivo.</p>
+          <p>Por otro lado al comprar los productos en la tienda, evitamos los intermediarios para que puedan recibir un <b>mejor precio</b>.</p>
+          <p>Y también disfrutarán de una <b>atención personalizada</b> en cualquier momento para solucionar todos los futuros problemas</p>
         </main>
         <footer class="mt-5">
         <figure class="figure d-block mx-auto">

@@ -16,7 +16,8 @@ layout: page
 En la web (página web de la empresa) hay una serie de contenidos de carácter informativo sobre (contenido de la web o explicación de su actividad).
 
 **Su principal objetivo** es facilitar a los clientes y al público en general, la información relativa a la empresa, a los productos y servicios que se ofrecen (esto se puede modificar según la actividad a la que se dedique la empresa).
-POLÍTICA DE PRIVACIDAD
+
+## POLÍTICA DE PRIVACIDAD
 
 En cumplimiento de lo dispuesto en la **Ley Orgánica 15/1999, de 13 de Diciembre, de Protección de Datos de Carácter Personal (LOPD)** se informa al usuario que todos los datos que nos proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de (nombre de la empresa)
 

@@ -1,10 +1,11 @@
 ---
 title: "iPhone 8 Plus 256 GB"
 summary: 'Pantalla de 5,5" 256 GB de almacenamiento'
-image: iphone-8-plus-gris-espacial.jpg
+image: iphone-8-plus-gris-espacial.png
 galeria:
-  - iphone-8-plus-plata.jpg
-  - iphone-8-plus-oro.jpg
+  - iphone-8-plus-gris-espacial.png
+  - iphone-8-plus-plata.png
+  - iphone-8-plus-oro.png
 modelo: iPhone 8
 precio: 0
 orden: 4

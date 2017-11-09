@@ -1,10 +1,10 @@
 ---
 title: "iPhone X 64 GB"
 summary: 'Pantalla de 5,82" 64 GB de almacenamiento'
-image: iphone-X-gris-espacial.jpg
+image: iphone-x-gris-espacial.png
 galeria:
-  - iphone-X-gris-espacial.jpg
-  - iphone-X-plata.jpg
+  - iphone-x-gris-espacial.png
+  - iphone-x-plata.png
 modelo: iPhone X
 precio: 0
 orden: 1

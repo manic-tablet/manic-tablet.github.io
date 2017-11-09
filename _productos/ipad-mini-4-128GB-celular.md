@@ -5,7 +5,7 @@ image: ipad-mini4-gris-espacial.png
 galeria:
   - ipad-mini4-gris-espacial.png
   - ipad-mini4-plata.png
-  - ipad-mini-oro.png
+  - ipad-mini4-oro.png
 modelo: iPad Mini 4
 precio: 0
 orden: 2

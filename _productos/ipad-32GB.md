@@ -1,10 +1,11 @@
 ---
 title: 'iPad 32 GB'
 summary: 'Pantalla de 9,7" 32 GB de almacenamiento'
-image: iphone-8-plus-gris-espacial.jpg
+image: ipad-gris-espacial.png
 galeria:
-  - iphone-8-plus-plata.jpg
-  - iphone-8-plus-oro.jpg
+  - ipad-gris-espacial.png
+  - ipad-plata.png
+  - ipad-oro.png
 modelo: iPad
 precio: 0
 orden: 1

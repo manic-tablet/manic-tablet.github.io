@@ -1,10 +1,11 @@
 ---
 title: 'iPad Mini 4 128 GB Celular'
 summary: 'Pantalla de 7,9" 128 GB de almacenamiento'
-image: iphone-8-plus-gris-espacial.jpg
+image: ipad-mini4-gris-espacial.png
 galeria:
-  - iphone-8-plus-plata.jpg
-  - iphone-8-plus-oro.jpg
+  - ipad-mini4-gris-espacial.png
+  - ipad-mini4-plata.png
+  - ipad-mini-oro.png
 modelo: iPad Mini 4
 precio: 0
 orden: 2

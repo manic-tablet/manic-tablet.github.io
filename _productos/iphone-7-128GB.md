@@ -1,10 +1,13 @@
 ---
 title: "iPhone 7 128 GB"
 summary: 'Pantalla de 4,7" 128 GB de almacenamiento'
-image: iphone-8-plus-gris-espacial.jpg
+image: iphone-7-negro-brillante.png
 galeria:
-  - iphone-8-plus-plata.jpg
-  - iphone-8-plus-oro.jpg
+  - iphone-7-negro-brillante.png
+  - iphone-7-negro-mate.png
+  - iphone-7-plata.png
+  - iphone-7-oro.png
+  - iphone-7-oro-rosa.png
 modelo: iPhone 7
 precio: 0
 orden: 2

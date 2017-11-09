@@ -1,10 +1,12 @@
 ---
 title: 'iPad Pro 10,5" 64 GB Celular'
 summary: 'Pantalla de 10,5" 64 GB de almacenamiento'
-image: iphone-8-plus-gris-espacial.jpg
+image: ipad-pro-10in-gris-espacial.png
 galeria:
-  - iphone-8-plus-plata.jpg
-  - iphone-8-plus-oro.jpg
+  - ipad-pro-10in-gris-espacial.png
+  - ipad-pro-10in-plata.png
+  - ipad-pro-10in-oro.png
+  - ipad-pro-10in-oro-rosa.png
 modelo: iPad Pro
 precio: 0
 orden: 2

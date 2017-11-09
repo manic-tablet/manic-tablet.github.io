@@ -78,6 +78,13 @@
         </header>
         <main>
           <img class="d-block mx-auto img-fluid mb-5" src="/assets/images/productos/{{ page.image }}" alt="{{ page.title }}">
+          {% if page.galeria %}
+          <div class="galeria thumbnails mb-5">
+            {% for img in page.galeria %}
+              <img class="img-thumbnail" src="/assets/images/productos/{{ img }}" alt="{{ img }}">
+            {% endfor %}
+          </div>
+          {% endif %}
           {{ content }}
           <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
             <span itemprop="price" class="invisible">{{ page.precio }} €</span>

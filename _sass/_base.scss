@@ -212,3 +212,10 @@ body {
 b {
   color: #ec1920;
 }
+
+.galeria.thumbnails {
+  img {
+    max-width: 20%;
+    min-width: 100px;
+  }
+}

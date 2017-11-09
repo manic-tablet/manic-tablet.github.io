@@ -1,5 +1,5 @@
 ---
 title: iPhone 7
-categorie: iPhone
+gama: iPhone
 orden: 2
 ---

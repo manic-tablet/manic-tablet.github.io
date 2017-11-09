@@ -1,13 +1,13 @@
 ---
-title: "iPhone X 64 GB"
-summary: 'Pantalla de 5,82" 64 GB de almacenamiento'
+title: "iPhone X 256 GB"
+summary: 'Pantalla de 5,82" 256 GB de almacenamiento'
 image: iphone-X-gris-espacial.jpg
 galeria:
   - iphone-X-gris-espacial.jpg
   - iphone-X-plata.jpg
 modelo: iPhone X
 precio: 0
-orden: 1
+orden: 2
 ---
 
 ## Características
@@ -103,4 +103,4 @@ orden: 1
   - EarPods con conector Lightning
   - Adaptador de Lightning a toma para auriculares de 3,5 mm
   - Cable de conector Lightning a USB
-  - Adaptador de corriente USB
+  - Adaptador de corriente USB  -

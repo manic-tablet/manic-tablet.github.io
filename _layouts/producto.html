@@ -83,10 +83,13 @@
         </header>
         <main>
           <img id="main-img" class="d-block mx-auto img-fluid mb-5" src="/assets/images/productos/{{ page.image }}" alt="{{ page.title }}">
-          {% if page.galeria %}
-          <div id="thumbnails" class="galeria thumbnails mb-5">
-            {% for img in page.galeria %}
-              <img class="img-thumbnail" src="/assets/images/productos/{{ img }}" alt="{{ img }}">
+          {% if page.colores %}
+          <div id="thumbnails" class="galeria thumbnails mb-5 d-flex flex-row flex-wrap flex-sm-nowrap justify-content-center text-center">
+            {% for color in page.colores %}
+            <div>
+              <img class="img-thumbnail" src="/assets/images/productos/{{ color.imagen }}" alt="{{ color.color }}" title="{{ color.color }}">
+              <p><b>{{ color.color | capitalize }}</b></p>
+            </div>
             {% endfor %}
           </div>
           {% endif %}

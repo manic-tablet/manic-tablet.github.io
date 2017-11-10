@@ -2,11 +2,15 @@
 title: 'iPad Pro 10,5" 512 GB'
 summary: 'Pantalla de 10,5" 512 GB de almacenamiento'
 image: ipad-pro-10in-gris-espacial.png
-galeria:
-  - ipad-pro-10in-gris-espacial.png
-  - ipad-pro-10in-plata.png
-  - ipad-pro-10in-oro.png
-  - ipad-pro-10in-oro-rosa.png
+colores:
+  - color: gris espacial
+    imagen: ipad-pro-10in-gris-espacial.png
+  - color: plata
+    imagen: ipad-pro-10in-plata.png
+  - color: oro
+    imagen: ipad-pro-10in-oro.png
+  - color: oro rosa
+    imagen: ipad-pro-10in-oro-rosa.png
 modelo: iPad Pro
 precio: 0
 orden: 5

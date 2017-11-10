@@ -2,10 +2,13 @@
 title: 'iPad Pro 12,9" 512 GB Celular'
 summary: 'Pantalla de 12,9" 512 GB de almacenamiento'
 image: ipad-pro-12in-gris-espacial.png
-galeria:
-  - ipad-pro-12in-gris-espacial.png
-  - ipad-pro-12in-plata.png
-  - ipad-pro-12in-oro.png
+colores:
+  - color: gris espacial
+    imagen: ipad-pro-12in-gris-espacial.png
+  - color: plata
+    imagen: ipad-pro-12in-plata.png
+  - color: oro
+    imagen: ipad-pro-12in-oro.png
 modelo: iPad Pro
 precio: 0
 orden: 12

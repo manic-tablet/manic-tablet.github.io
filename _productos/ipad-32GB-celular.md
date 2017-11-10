@@ -2,10 +2,13 @@
 title: 'iPad 32 GB Celular'
 summary: 'Pantalla de 9,7" 32 GB de almacenamiento'
 image: ipad-gris-espacial.png
-galeria:
-  - ipad-gris-espacial.png
-  - ipad-plata.png
-  - ipad-oro.png
+colores:
+  - color: gris espacial
+    imagen: ipad-gris-espacial.png
+  - color: plata
+    imagen: ipad-plata.png
+  - color: oro
+    imagen: ipad-oro.png
 modelo: iPad
 precio: 0
 orden: 2

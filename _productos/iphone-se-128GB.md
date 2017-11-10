@@ -2,11 +2,15 @@
 title: "iPhone SE 128 GB"
 summary: 'Pantalla de 4" 128 GB de almacenamiento'
 image: iphone-se-gris.png
-galeria:
-  - iphone-se-gris.png
-  - iphone-se-plata.png
-  - iphone-se-oro.png
-  - iphone-se-oro-rosa.png
+colores:
+  - color: gris
+    imagen: iphone-se-gris.png
+  - color: plata
+    imagen: iphone-se-plata.png
+  - color: oro
+    imagen: iphone-se-oro.png
+  - color: oro rosa
+    imagen: iphone-se-oro-rosa.png
 modelo: iPhone SE
 precio: 0
 orden: 2

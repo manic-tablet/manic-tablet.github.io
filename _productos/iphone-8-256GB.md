@@ -2,10 +2,13 @@
 title: "iPhone 8 64 GB"
 summary: 'Pantalla de 4,7" 64 GB de almacenamiento'
 image: iphone-8-gris-espacial.png
-galeria:
-  - iphone-8-gris-espacial.png
-  - iphone-8-plata.png
-  - iphone-8-oro.png
+colores:
+  - color: gris espacial
+    imagen: iphone-8-gris-espacial.png
+  - color: plata
+    imagen: iphone-8-plata.png
+  - color: oro
+    imagen: iphone-8-oro.png
 modelo: iPhone 8
 precio: 0
 orden: 2

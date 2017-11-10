@@ -11,7 +11,7 @@ colores:
     imagen: iphone-7-plus-plata.png
   - color: oro
     imagen: iphone-7-plus-oro.png
-  - color:
+  - color: oro rosa
     imagen: iphone-7-plus-oro-rosa.png
 modelo: iPhone 7
 precio: 0

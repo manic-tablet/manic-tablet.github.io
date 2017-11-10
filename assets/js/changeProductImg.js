@@ -3,9 +3,13 @@ var thumbnails;
 
 function setup() {
 	imagen = select('#main-img');
-	thumbnails = selectAll('img','#thumbnails');
-	for (let i = 0; i < thumbnails.length; i++) {
-		thumbnails[i].mouseOver(changeSrc)
+	let container = select('#thumbnails')
+	if (container) {
+		thumbnails = selectAll('.img-thumbnail','#thumbnails');
+		print(thumbnails.length)
+		for (let i = 0; i < thumbnails.length; i++) {
+			thumbnails[i].mouseOver(changeSrc)
+		}
 	}
 }
 

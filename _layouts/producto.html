@@ -32,6 +32,11 @@
     <!-- jQuery Sharrre 1.3.5 -->
     <script type="text/javascript" src="{{ "/assets/js/sharrre/jquery.sharrre.js" | relative_url }}"></script>
 
+    <!-- p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
+    <script src="{{ "/assets/js/changeProductImg.js" }}"></script>
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ site.twitter.username | prepend: '@' }}">
     <meta name="twitter:creator" content="{{ site.twitter.username | prepend: '@' }}">
@@ -77,9 +82,9 @@
           <p>{{ page.summary }}</p>
         </header>
         <main>
-          <img class="d-block mx-auto img-fluid mb-5" src="/assets/images/productos/{{ page.image }}" alt="{{ page.title }}">
+          <img id="main-img" class="d-block mx-auto img-fluid mb-5" src="/assets/images/productos/{{ page.image }}" alt="{{ page.title }}">
           {% if page.galeria %}
-          <div class="galeria thumbnails mb-5">
+          <div id="thumbnails" class="galeria thumbnails mb-5">
             {% for img in page.galeria %}
               <img class="img-thumbnail" src="/assets/images/productos/{{ img }}" alt="{{ img }}">
             {% endfor %}

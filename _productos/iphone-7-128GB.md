@@ -1,7 +1,7 @@
 ---
 title: "iPhone 7 128 GB"
 summary: 'Pantalla de 4,7" 128 GB de almacenamiento'
-image: iphone-7-negro-brillante.png
+image: iphone-7-plata.png
 colores:
   - color: negro brillante
     imagen: iphone-7-negro-brillante.png

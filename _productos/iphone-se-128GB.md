@@ -1,7 +1,7 @@
 ---
 title: "iPhone SE 128 GB"
 summary: 'Pantalla de 4" 128 GB de almacenamiento'
-image: iphone-se-gris.png
+image: iphone-se-plata.png
 colores:
   - color: gris
     imagen: iphone-se-gris.png

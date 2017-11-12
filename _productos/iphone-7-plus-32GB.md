@@ -1,7 +1,7 @@
 ---
 title: "iPhone 7 Plus 32 GB"
 summary: 'Pantalla de 5,5" 32 GB de almacenamiento'
-image: iphone-7-plus-negro-brillante.png
+image: iphone-7-plus-oro.png
 colores:
   - color: negro brillante
     imagen: iphone-7-plus-negro-brillante.png

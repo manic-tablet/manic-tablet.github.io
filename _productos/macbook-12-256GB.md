@@ -1,7 +1,16 @@
 ---
 title: "MacBook de 12 pulgadas"
 summary: "Procesador a 1,2 GHz 256 GB de almacenamiento"
-image: macbook-12.png
+image: macbook-gris.jpg
+colores:
+  - color: gris
+    imagen: macbook-gris.jpg
+  - color: plata
+    imagen: macbook-plata.jpg
+  - color: oro
+    imagen: macbook-oro.jpg
+  - color: oro rosa
+    imagen: macbook-oro-rosa.jpg
 modelo: MacBook
 precio: 0
 ---

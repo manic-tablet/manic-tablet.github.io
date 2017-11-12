@@ -11,7 +11,6 @@ $(document).ready(function () {
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top - $('#main-nav').outerHeight()
     }, 900)
-
   })
 
   $('#mainCarousel .carousel-caption a').on('click', function(e) {

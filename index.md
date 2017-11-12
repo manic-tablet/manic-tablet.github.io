@@ -18,10 +18,11 @@ layout: home
         <main>
           <h2 class="text-center mb-5">¿Porque elegir <b>Manic Tablet</b>?</h2>
           <p>En <b>Manic Tablet</b> ofrecemos una nueva forma de compra.</p>
-          <p>Evitamos que seas un solo cliente mas. Le damos mas importancia al <b>servicio de postventa</b> que a la propia venta. Nos preocupamos de que el cliente sea capaz de sacarle el máximo rendimiento a su producto.</p>
-          <p>Para ello por la compra de cualquier producto, ofrecemos un <b>curso gratuito</b> a cada uno de nuestros clientes. Un curso individual adecuado a sus necesidades, en el que se resolverán todas las dudas, y de esta manera puedan comenzar con sus primeros pasos, aprendiendo a manejar su nuevo dispositivo.</p>
+          <p>Evitamos que seas un solo cliente más. Le damos más importancia al <b>servicio de postventa</b> que a la propia venta. Nos preocupamos de que el cliente sea capaz de sacarle el máximo rendimiento a su producto.</p>
+          <p>Para ello por la compra de cualquier producto, ofrecemos un <b>curso gratuito</b> a cada uno de nuestros clientes. Un curso individual adecuado a sus necesidades, en el que se resolverán todas las dudas y, de esta manera, puedan comenzar con sus primeros pasos, aprendiendo a manejar su nuevo dispositivo.</p>
           <p>Por otro lado al comprar los productos en la tienda, evitamos los intermediarios para que puedan recibir un <b>mejor precio</b>.</p>
-          <p>Y también disfrutarán de una <b>atención personalizada</b> en cualquier momento para solucionar todos los futuros problemas</p>
+          <p>Y disfrutarán de una <b>atención personalizada</b> en cualquier momento para solucionar todos los futuros problemas</p>
+          <p>Además de ésto, disponemos de un <b>servicio técnico rápido y eficaz</b>, especialistas en reparación de móviles, ordenadores, y tablets.</p>
         </main>
         <footer class="mt-5">
         <figure class="figure d-block mx-auto">

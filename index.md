@@ -38,7 +38,7 @@ layout: home
 <hr>
 
 <!-- GAMAS DE PRODUCTOS -->
-<div id="compra" class="container p-5">
+<div id="compra" class="container">
   <h2 class="display-3 text-center text-uppercase mb-5">Elije tu Mac</h2>
   <div class="row">
     {% assign items = site.gamas | sort: 'orden' %}

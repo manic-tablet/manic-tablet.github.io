@@ -144,33 +144,37 @@ body {
 #vende {
   position: relative;
   color: white;
-  background-image: url('/assets/Apple-2.jpg');
+  background-image: url('/assets/venta.jpg');
   //background-attachment : fixed;
-  background-position   : bottom left;
-  //background-size       : contain;
+  background-position   : center;
+  background-size       : cover;
   background-repeat: no-repeat;
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     //padding-top: 12rem;
     //padding-bottom: 12rem
-    background-size: contain;
+    //background-size: contain;
+    background-position   : bottom left;
   }
 
   article {
     //background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
     position: relative;
     //float: right;
-    width: 50%;
-    padding: 5rem 1rem;
-    margin-left: 2rem;
+    //width: 50%;
+    width: 100%;
+    padding: 20vh 1rem;
+    //margin-left: 2rem;
     font-weight: bolder;
-    //text-shadow: 2px 2px 3px black;
-    //color: #f0f0f0;
-    color: black;
+    text-shadow: 2px 2px 3px black;
+    color: #f0f0f0;
+    //color: black;
     //z-index: 10;
-    @media (max-width: 768px) {
-      width: 100%;
-      background-color: rgba(255,255,255,0.8);
-      margin-left: 0;
+    @media (min-width: 992px) {
+      // width: 100%;
+      // background-color: rgba(255,255,255,0.4);
+      // margin-left: 0;
+      padding: 40vh 1rem;
     }
   }
 }

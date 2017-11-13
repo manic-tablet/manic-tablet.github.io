@@ -10,4 +10,7 @@ layout: default
 </header>
 
 {% assign items = site.modelos | where: 'gama', page.title | sort: 'orden' %}
+{% if page.title == "Accesorios" %}
+  {% assign items = site.productos | where: 'modelo', page.title | sort: 'orden' %}
+{% endif %}
 {% include cards.html cards=items %}

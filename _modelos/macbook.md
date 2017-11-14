@@ -1,6 +1,6 @@
 ---
 title: MacBook
-gama: Mac
+gama: Ordenadores
 image: macbook.png
 orden: 1
 ---

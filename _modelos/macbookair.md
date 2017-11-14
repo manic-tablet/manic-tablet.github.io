@@ -1,6 +1,6 @@
 ---
 title: "MacBook Air"
-gama: Mac
+gama: Ordenadores
 image: macbook-air.png
 orden: 3
 ---

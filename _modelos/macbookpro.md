@@ -1,6 +1,6 @@
 ---
 title: "MacBook Pro"
-gama: Mac
+gama: Ordenadores
 image: macbook-pro.png
 orden: 2
 ---

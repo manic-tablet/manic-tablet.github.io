@@ -32,12 +32,16 @@ h6 {
   font-size:  1.2rem;
 }
 
-p {
-  margin-bottom: 1.6rem;
+p + h2:not(:first-of-type) {
+  margin-top: 4rem;
+}
+p + h3 {
+  margin-top: 4rem;
 }
 
 ul {
   list-style-type: square;
+  margin-bottom: 1.6rem;
 }
 
 .title-border-bottom {

@@ -2,8 +2,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 body {
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6rem;
+  color: rgb(66,66,66);
   //overflow-wrap: break-word
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
@@ -36,6 +38,15 @@ h6 {
   font-size:  1.2rem;
 }
 
+p {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+p.lead {
+  font-weight: 300;
+}
+
 p + h2:not(:first-of-type) {
   margin-top: 4rem;
 }
@@ -57,16 +68,16 @@ ul {
   margin: 2.5rem auto;
 }
 
-#main-footer {
-  h6 {
-    font-weight: bold;
-  }
-}
-
 .product {
   h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    color: rgb(51,51,51);
     //padding: 0.5rem 0.2rem;
+  }
+}
+
+#contacto {
+  h6 {
+    font-size: 1rem;
+    font-weight: normal;
   }
 }

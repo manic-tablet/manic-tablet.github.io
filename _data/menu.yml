@@ -12,7 +12,7 @@ reparacion:
   link: "#reparacion"
 cursos:
   name: "Cursos"
-  link: "http://manictablet.com/#our-work"
+  link: "#cursos"
 contacto:
   name: "Contacto"
   link: "#main-footer"

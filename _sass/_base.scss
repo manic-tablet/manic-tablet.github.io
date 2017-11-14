@@ -149,7 +149,7 @@ body {
 
 #compra,
 #promo {
-  padding: 20vh 1rem;
+  padding: 10vh 1rem;
 }
 
 #vende {
@@ -242,7 +242,7 @@ body {
 }
 
 #about b {
-  color: #ec1920;
+  //color: #ec1920;
 }
 
 .galeria.thumbnails {
@@ -261,4 +261,24 @@ body {
   .img-thumbnail {
     border: none;
   }
+}
+
+h1 {
+  font-size: 2.25rem;
+  letter-spacing: 0.45rem;
+  font-weight: 300;
+}
+h2 {
+  font-size:  2.175rem;
+  letter-spacing: 0.25rem;
+  font-weight: 300;
+}
+
+.title-border-bottom {
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #060606;
+  border-color: #060606;
+  margin: 2.5rem auto;
 }

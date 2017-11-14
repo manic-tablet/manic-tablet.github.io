@@ -6,13 +6,14 @@ layout: home
 ---
 
 <!-- About Us -->
-<div id="about" class="container p-5">
+<div id="about" class="container mt-5 p-5">
   <div class="row">
     <div class="col">
 
       <article>
         <header class="text-center mb-5">
-          <h1 class="mb-5 display-1">UNA NUEVA FORMA DE COMPRA</h1>
+          <h1 class="mb-4">UNA NUEVA FORMA DE COMPRA</h1>
+          <span class="title-border-bottom"></span>
           <p class="lead">A principios del 2014 <b>Manic Tablet</b> nace de la pasión por las nuevas tecnologías. Una pasión con el objetivo de enseñar a cada persona, de cualquier edad, como sacar el máximo partido de sus dispositivos. Ya sean, <a href="/iphone">móviles</a>, <a href="/ipad">tabletas</a>, <a href="/mac">ordenadores</a>… o todo <a href="/accesorios">tipo de aparato</a> relacionado con las nuevas tecnologías.</p>
         </header>
         <main>
@@ -39,7 +40,8 @@ layout: home
 
 <!-- GAMAS DE PRODUCTOS -->
 <div id="compra" class="container">
-  <h2 class="display-3 text-center text-uppercase mb-5">Elije tu Mac</h2>
+  <h2 class="text-center text-uppercase mb-4">Elije tu dispositivo</h2>
+  <span class="title-border-bottom"></span>
   <div class="row">
     {% assign items = site.gamas | sort: 'orden' %}
     {% include cards.html cards=items %}

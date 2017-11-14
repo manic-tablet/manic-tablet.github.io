@@ -233,6 +233,7 @@
 .icon-gauge:before { content: '\e8e7'; } /* '' */
 .icon-rocket:before { content: '\e8e8'; } /* '' */
 .icon-flow-parallel:before { content: '\e8e9'; } /* '' */
+.icon-whatsapp-b:before { content: '\e8ea'; } /* '' */
 .icon-github:before { content: '\f300'; } /* '' */
 .icon-github-circled:before { content: '\f301'; } /* '' */
 .icon-flickr:before { content: '\f303'; } /* '' */
@@ -268,6 +269,7 @@
 .icon-evernote:before { content: '\f333'; } /* '' */
 .icon-flattr:before { content: '\f336'; } /* '' */
 .icon-skype:before { content: '\f339'; } /* '' */
+.icon-skype-circled:before { content: '\f33a'; } /* '' */
 .icon-renren:before { content: '\f33c'; } /* '' */
 .icon-sina-weibo:before { content: '\f33f'; } /* '' */
 .icon-paypal:before { content: '\f342'; } /* '' */

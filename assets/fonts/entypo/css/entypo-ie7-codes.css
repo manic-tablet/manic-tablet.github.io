@@ -233,6 +233,7 @@
 .icon-gauge { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8e7;&nbsp;'); }
 .icon-rocket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8e8;&nbsp;'); }
 .icon-flow-parallel { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8e9;&nbsp;'); }
+.icon-whatsapp-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8ea;&nbsp;'); }
 .icon-github { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;'); }
 .icon-github-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf301;&nbsp;'); }
 .icon-flickr { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf303;&nbsp;'); }
@@ -268,6 +269,7 @@
 .icon-evernote { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf333;&nbsp;'); }
 .icon-flattr { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf336;&nbsp;'); }
 .icon-skype { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf339;&nbsp;'); }
+.icon-skype-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf33a;&nbsp;'); }
 .icon-renren { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf33c;&nbsp;'); }
 .icon-sina-weibo { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf33f;&nbsp;'); }
 .icon-paypal { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf342;&nbsp;'); }

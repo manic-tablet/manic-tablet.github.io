@@ -6,7 +6,7 @@ compra:
   link: "#compra"
 vende:
   name: "Venta"
-  link: "#vende"
+  link: "#venta"
 reparacion:
   name: "Reparación"
   link: "#reparacion"

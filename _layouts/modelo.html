@@ -2,11 +2,17 @@
 layout: default
 ---
 
-{% include gama-navigation.html %}
+<section class="col-12 py-10vh px-1">
+  {% include gama-navigation.html %}
+</section>
 
-<header class="my-5 text-center">
-  <h1 class="display-1">{{ page .title }}</h1>
-</header>
+<main class="col-12 col-lg-8 mx-auto">
 
-{% assign items = site.productos | where: 'modelo', page.title | sort: 'orden' %}
-{% include cards.html cards=items %}
+  <header class="text-center">
+    <h1>{{ page .title }}</h1>
+    <span class="title-border-bottom"></span>
+  </header>
+
+  {% assign items = site.productos | where: 'modelo', page.title | sort: 'orden' %}
+  {% include cards.html cards=items %}
+</main>

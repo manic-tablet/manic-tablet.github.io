@@ -4,8 +4,8 @@ layout: page
 ---
 
 # {{ page.title }}
-{: .text-center .mb-5 .text-uppercase }
-
+{: .text-center .text-uppercase }
+<span class="title-border-bottom"></span>
 
 ## DATOS GENERALES
 

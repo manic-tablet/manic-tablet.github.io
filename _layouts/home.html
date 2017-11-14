@@ -38,9 +38,20 @@
     {% include nav.html %}
     {% include carousel.html %}
 
+    <main class="container">
+      {% include section-nosotros.html %}
 
-          {{ content }}
+      {% include section-compra.html %}
 
-    {% include footer.html %}
+      {% include section-cursos.html %}
+
+      {% include section-venta.html %}
+
+    </main>
+    <footer id="main-footer" class="container">
+      {% include section-contacto.html %}
+    </footer>
+
+    {% include foot.html %}
   </body>
 </html>

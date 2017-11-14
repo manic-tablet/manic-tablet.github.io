@@ -1,9 +1,64 @@
-html, body {
+html {
   font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  letter-spacing: 0.45rem;
+}
+h2 {
+  font-size:  1.8rem;
+  letter-spacing: 0.25rem;
+}
+h3 {
+  font-size:  1.5rem;
+}
+h4 {
+  font-size:  1.4rem;
+}
+h5 {
+  font-size:  1.3rem;
+}
+h6 {
+  font-size:  1.2rem;
+}
+
+p {
+  margin-bottom: 1.6rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.title-border-bottom {
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #060606;
+  border-color: #060606;
+  margin: 2.5rem auto;
 }
 
 #main-footer {
   h6 {
     font-weight: bold;
+  }
+}
+
+.product {
+  h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: rgb(51,51,51);
+    //padding: 0.5rem 0.2rem;
   }
 }

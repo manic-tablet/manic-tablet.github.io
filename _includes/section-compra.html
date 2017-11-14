@@ -1,0 +1,15 @@
+<!-- GAMAS DE PRODUCTOS -->
+<section id="compra" class="py-10vh px-1">
+
+  <article>
+    <header>
+      <h2 class="text-center text-uppercase mb-4">Elije tu dispositivo</h2>
+      <span class="title-border-bottom"></span>
+    </header>
+    <main>
+      {% assign items = site.gamas | sort: 'orden' %}
+      {% include cards.html cards=items %}
+    </main>
+  </article>
+
+</section>

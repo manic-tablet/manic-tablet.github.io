@@ -38,10 +38,20 @@
 
   </head>
   <body>
+
     {% include nav.html %}
-    <div class="container mt-5 p-5">
-      {{ content }}
-    </div>
-    {% include footer.html %}
+
+    <main class="container-fluid">
+      <div class="row">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer id="main-footer" class="container">
+      {% include section-contacto.html %}
+    </footer>
+
+    {% include foot.html %}
+
   </body>
 </html>

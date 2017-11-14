@@ -4,15 +4,15 @@ nosotros:
 compra:
   name: "Compra"
   link: "#compra"
-vende:
-  name: "Venta"
-  link: "#venta"
 reparacion:
   name: "Reparación"
   link: "#reparacion"
 cursos:
   name: "Cursos"
   link: "#cursos"
+vende:
+  name: "Venta"
+  link: "#venta"
 contacto:
   name: "Contacto"
-  link: "#main-footer"
+  link: "#contacto"

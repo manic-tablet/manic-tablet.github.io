@@ -1,7 +1,7 @@
 ---
 title: 'iPad Pro 10,5" 256 GB Celular'
 summary: 'Pantalla de 10,5" 256 GB de almacenamiento'
-image: ipad-pro-10in-gris-espacial.png
+image: ipad-pro-10in-oro-rosa.png
 colores:
   - color: gris espacial
     imagen: ipad-pro-10in-gris-espacial.png

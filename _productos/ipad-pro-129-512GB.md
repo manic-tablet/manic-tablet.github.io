@@ -1,7 +1,7 @@
 ---
 title: 'iPad Pro 12,9" 512 GB'
 summary: 'Pantalla de 12,9" 512 GB de almacenamiento'
-image: ipad-pro-12in-gris-espacial.png
+image: ipad-pro-12in-plata.png
 colores:
   - color: gris espacial
     imagen: ipad-pro-12in-gris-espacial.png

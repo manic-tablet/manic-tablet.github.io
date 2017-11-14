@@ -73,6 +73,13 @@ body {
   padding-bottom: 10vh;
 }
 
+.section-img {
+  figure {
+    img {
+      width: 100%;
+    }
+  }
+}
 #main-nav {
   z-index: 20;
   background-color: white !important;

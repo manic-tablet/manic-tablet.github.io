@@ -12,7 +12,7 @@ colores:
   - color:
     imagen: airpods4.png
 modelo: Accesorios
-precio: '1.000'
+precio: '999'
 orden: 1
 ---
 

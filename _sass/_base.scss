@@ -41,8 +41,9 @@ body {
 
 .galeria.thumbnails {
   img {
-    @media (max-width: 568px) {
-      max-width: 100px;
+    max-width: 100px;
+    @media (min-width: 568px) {
+      max-width: 150px;
     }
   }
   p {

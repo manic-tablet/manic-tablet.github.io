@@ -12,7 +12,7 @@ colores:
   - color:
     imagen: altavoz-bose-mini4.png
 modelo: Accesorios
-precio: 0
+precio: 99
 orden: 5
 ---
 

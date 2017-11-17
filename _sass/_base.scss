@@ -106,7 +106,7 @@ body {
     text-decoration: none;
   }
   @media (max-width: 480px) {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     padding: 1.5rem 0.5rem;
   }
 }
@@ -117,6 +117,10 @@ body {
   &:hover {
     background-color: #fff;
   }
+}
+
+.mt-button.mt-button-small {
+  padding: 0.5rem;
 }
 
 #main-nav {

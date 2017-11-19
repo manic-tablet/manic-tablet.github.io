@@ -12,7 +12,7 @@ colores:
   - color: oro rosa
     imagen: macbook-oro-rosa.jpg
 modelo: MacBook
-precio: 999
+precio: 1749
 ---
 
 ## Características

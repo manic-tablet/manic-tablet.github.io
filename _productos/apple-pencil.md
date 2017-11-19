@@ -4,6 +4,8 @@ summary: 'para el iPad Pro'
 image: apple-pencil.png
 colores:
   - color:
+    imagen: apple-pencil.png
+  - color:
     imagen: apple-pencil2.png
   - color:
     imagen: apple-pencil3.png

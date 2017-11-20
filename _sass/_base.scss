@@ -31,7 +31,7 @@ body {
 }
 
 .overlay {
-  background: url(/assets/images/overlays/01.png);
+  background: url(/assets/images/overlays/03.png);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -192,6 +192,7 @@ body {
     //padding-right: 1rem;
     padding: 0;
     h3, p {
+      font-size: 2.5rem;
       font-weight: bolder;
       text-shadow: 2px 2px 3px black;
     }

@@ -1,7 +1,7 @@
 ---
-title: " "
+title: "Descubre todo el potencial de tus dispositivos"
 image: slide-2.jpg
 text:
 link: /#cursos
-linktext: Saber más
+linktext: "Ver cursos"
 ---

@@ -227,3 +227,12 @@ body {
     min-width: 200px;
   }
 }
+
+#reparacion {
+  .section-img {
+    @media (min-width: 992px) {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -8,6 +8,7 @@ colores:
   - color: plata
     imagen: macbook-pro-13-plata.png
 modelo: MacBook Pro
+orden: 4
 precio: 2149
 ---
 

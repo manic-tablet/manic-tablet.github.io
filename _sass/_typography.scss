@@ -94,3 +94,12 @@ ul {
     font-weight: bold;
   }
 }
+
+#reparacion {
+  h1 {
+    overflow-wrap: break-word
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+}

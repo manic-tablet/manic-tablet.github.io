@@ -5,9 +5,11 @@
     <div class="card-body">
       <h4 class="card-title h5 text-center">{{ item.title }}</h4>
       <p class="text-center">{{ item.summary }}</p>
-      {% if item.precio %}
-      <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ item.precio }} €</button>
-      {% endif %}
     </div>
+    {% if item.precio %}
+    <div class="card-footer" style="border: none; background-color: white;">
+      <button type="button" class="btn btn-primary mx-auto d-block mb-2">{{ item.precio }} €</button>
+    </div>
+    {% endif %}
   </div>
 </a>

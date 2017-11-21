@@ -1,6 +1,6 @@
 ---
 title: "MacBook Air"
 gama: Ordenadores
-image: macbook-air.png
+image: macbook-air.jpg
 orden: 2
 ---

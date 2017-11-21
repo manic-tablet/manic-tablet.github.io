@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
+    {% include head-revolution-slider.html %}
+    {% include head-revolution-slider-script.html %}
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
@@ -25,8 +28,13 @@
     <link rel="stylesheet" href="{{ "/assets/fonts/entypo/css/entypo.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/fonts/entypo/css/animation.css" | relative_url }}">
 
+    <!-- Fontawesome font -->
+    <link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | relative_url }}">
+
     <!-- Open Sans -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
 
     {% seo %}
 
@@ -36,7 +44,7 @@
   <body data-spy="scroll" data-target="#main-nav" data-offset="104">
 
     {% include nav.html %}
-    {% include carousel.html %}
+    {% include section-revolution-slider.html %}
 
     <main>
       {% include section-nosotros.html %}

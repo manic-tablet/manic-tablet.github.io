@@ -1,0 +1,51 @@
+<script type="text/javascript">
+
+    /* https://learn.jquery.com/using-jquery-core/document-ready/ */
+    jQuery(document).ready(function() {
+
+        /* initialize the slider based on the Slider's ID attribute */
+        jQuery('#rev_slider_1').show().revolution({
+
+            /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+            responsiveLevels: [1240, 1024, 778, 480],
+
+            /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+            gridwidth:[1240, 1024, 778, 480],
+
+            /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+            gridheight:[400, 768, 960, 720],
+
+            /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+            visibilityLevels:[1240, 1024, 1024, 480],
+
+            /* options are 'auto', 'fullwidth' or 'fullscreen' */
+            sliderLayout: 'fullscreen',
+
+            /* basic navigation arrows and bullets */
+            navigation: {
+
+                arrows: {
+                    enable: false,
+                    style: 'hesperiden',
+                    hide_onleave: false
+                },
+
+                bullets: {
+                    enable: true,
+          					hide_onmobile:true,
+          					hide_under:960,
+          					style:"zeus",
+          					hide_onleave:false,
+          					direction:"horizontal",
+          					h_align:"right",
+          					v_align:"bottom",
+          					h_offset:80,
+          					v_offset:50,
+          					space:5,
+          					tmp:'<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>'
+                }
+            }
+        });
+    });
+
+</script>

@@ -1,7 +1,9 @@
 ---
-title: " "
+title: "Hello"
 image: slide-1.jpg
-text:
+text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 link: /#about
-linktext: ¿Quienes somos?
+linktext: ¿Quienés somos?
+revolution:
+  transition: fade
 ---

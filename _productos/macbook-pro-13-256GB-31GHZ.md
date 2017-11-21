@@ -1,12 +1,12 @@
 ---
 title: "MacBook Pro de 13 pulgadas"
 summary: "Procesador a 3,1 GHz 256 GB de almacenamiento"
-image: macbook-pro-13-plata.png
+image: macbook-pro-13-touch-gris.png
 colores:
   - color: gris
-    imagen: macbook-pro-13-gris.png
+    imagen: macbook-pro-13-touch-gris.png
   - color: plata
-    imagen: macbook-pro-13-plata.png
+    imagen: macbook-pro-13-touch-plata.png
 modelo: MacBook Pro
 orden: 3
 precio: 1899

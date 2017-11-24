@@ -21,4 +21,6 @@ $(document).ready(function () {
       'scrollTop': $target.offset().top - $('#main-nav').outerHeight()
     }, 900)
   })
+
+  $('#main-nav .nav-item a').removeClass('active')
 })

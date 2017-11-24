@@ -22,5 +22,5 @@ $(document).ready(function () {
     }, 900)
   })
 
-  $('#main-nav .nav-item a').removeClass('active')
+  $('#main-nav .nav-item a[href="#about"]').removeClass('active')
 })

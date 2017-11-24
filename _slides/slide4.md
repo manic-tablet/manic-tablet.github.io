@@ -1,7 +1,7 @@
 ---
 title: "Los productos"
 image: slide-4.jpg
-text: Explora nuestra amplia gama de productos
+text: Explora nuestra gama de productos
 link: /#compra
 linktext:
 revolution:

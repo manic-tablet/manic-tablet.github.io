@@ -8,7 +8,7 @@ $(document).ready(function () {
     var target = this.hash
     var $target = $(target)
 
-    $('html, body').stop().animate({
+    $('html, body.frontpage').stop().animate({
       'scrollTop': $target.offset().top - $('#main-nav').outerHeight()
     }, 900)
   })

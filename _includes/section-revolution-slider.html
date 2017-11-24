@@ -7,7 +7,7 @@
           <!-- *********************** -->
           <!-- Slides to be added here -->
           <!-- *********************** -->
-          {% assign slides = site.slides | sort: 'orden' %}
+          {% assign slides = site.slides | where: "publicado", "si" | sort: 'orden' %}
           {% for item in slides %}
             {% include revolution-slide.html slide=item index=forloop.index %}
           {% endfor %}

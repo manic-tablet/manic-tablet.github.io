@@ -67,7 +67,7 @@
       data-paddingleft="[0,0,0,0]"
       style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px; max-width: 60px; white-space: normal;text-transform:left;">{{ include.slide.text }}</div>
 
-
+{% if include.slide.link %}
   <div class="tp-caption BigBold-Button rev-btn" id="slide-{{ include.index }}-layer-7"
        data-x="['left','left','left','left']"
        data-hoffset="['480','480','30','20']"
@@ -88,6 +88,7 @@
        data-paddingbottom="[15,15,15,15]"
        data-paddingleft="[50,50,50,50]"
        style="z-index: 8; white-space: nowrap;text-transform:left;border-color:rgba(255,255,255,0.25);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">SABER MÁS</div>
+{% endif %}
 
   <div class="tp-caption BigBold-Button rev-btn" id="slide-{{ include.index }}-layer-12"
        data-x="['left','left','left','left']"

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('#main-nav .nav-item a').on('click', function (e) {
+  $('.frontpage #main-nav .nav-item a').on('click', function (e) {
     //alert (this.hash)
 
     $('#main-nav .navbar-toggler').removeClass('collapsed')
@@ -8,7 +8,7 @@ $(document).ready(function () {
     var target = this.hash
     var $target = $(target)
 
-    $('body.frontpage').stop().animate({
+    $('html, body').stop().animate({
       'scrollTop': $target.offset().top - $('#main-nav').outerHeight()
     }, 900)
   })
@@ -24,6 +24,6 @@ $(document).ready(function () {
 
   $('#main-nav .nav-item a[href="#about"]').removeClass('active')
   $('[data-spy="scroll"]').each(function () {
-  var $spy = $(this).scrollspy('refresh')
-})
+    var $spy = $(this).scrollspy('refresh')
+  })
 })

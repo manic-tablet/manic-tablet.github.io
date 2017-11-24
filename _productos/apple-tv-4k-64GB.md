@@ -12,7 +12,7 @@ colores:
   - color:
     imagen: apple-tv4.png
 modelo: Accesorios
-precio: 0
+precio: 219
 orden: 4
 ---
 

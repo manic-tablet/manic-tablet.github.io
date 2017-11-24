@@ -10,7 +10,7 @@ colores:
   - color:
     imagen: apple-pencil3.png
 modelo: Accesorios
-precio: 0
+precio: 109
 orden: 2
 ---
 

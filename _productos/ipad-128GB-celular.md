@@ -10,7 +10,7 @@ colores:
   - color: oro
     imagen: ipad-oro.png
 modelo: iPad
-precio: 0
+precio: 662
 orden: 4
 ---
 

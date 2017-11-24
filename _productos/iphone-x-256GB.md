@@ -8,7 +8,7 @@ colores:
   - color: plata
     imagen: iphone-x-plata.png
 modelo: iPhone X
-precio: 0
+precio: 1329
 orden: 2
 ---
 

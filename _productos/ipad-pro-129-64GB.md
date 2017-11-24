@@ -10,7 +10,7 @@ colores:
   - color: oro
     imagen: ipad-pro-12in-oro.png
 modelo: iPad Pro
-precio: 0
+precio: 899
 orden: 7
 ---
 

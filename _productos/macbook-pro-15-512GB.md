@@ -9,7 +9,7 @@ colores:
     imagen: macbook-pro-15-plata.png
 modelo: MacBook Pro
 orden: 6
-precio: 3199
+precio: 3305
 ---
 
 ## Características

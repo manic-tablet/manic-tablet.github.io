@@ -9,7 +9,7 @@ colores:
     imagen: macbook-pro-13-plata.png
 modelo: MacBook Pro
 orden: 2
-precio: 1669
+precio: 1755
 ---
 
 ## Características
@@ -20,7 +20,6 @@ precio: 1669
   - 256 GB de almacenamiento SSD
   - Tarjeta gráfica Intel Iris Plus Graphics 640
   - Cuatro puertos Thunderbolt
-  - Touch	Bar	y	Touch	ID
 
 ## Conexiones
 

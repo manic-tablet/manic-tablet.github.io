@@ -12,7 +12,7 @@ colores:
   - color: oro rosa
     imagen: iphone-se-oro-rosa.png
 modelo: iPhone SE
-precio: 0
+precio: 529
 orden: 2
 ---
 

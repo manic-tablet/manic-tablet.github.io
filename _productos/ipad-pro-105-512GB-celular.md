@@ -12,7 +12,7 @@ colores:
   - color: oro rosa
     imagen: ipad-pro-10in-oro-rosa.png
 modelo: iPad Pro
-precio: 0
+precio: 1279
 orden: 6
 ---
 

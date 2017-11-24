@@ -1,7 +1,7 @@
 ---
 title: "Bienvenido"
 image: slide-1.jpg
-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+text: En Manic Tablet queremos que nuestros clientes aprovechen al máximo todas las capacidades que le ofrece un Móvil, una Tableta o un Ordenador.
 link: /#about
 linktext: ¿Quienés somos?
 revolution:

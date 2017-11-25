@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
     /* https://learn.jquery.com/using-jquery-core/document-ready/ */
-    jQuery(document).ready(function() {
+    var revapi = jQuery(document).ready(function() {
 
         /* initialize the slider based on the Slider's ID attribute */
         jQuery('#rev_slider_1').show().revolution({
@@ -46,6 +46,30 @@
                 }
             }
         });
+    });
+
+    revapi.one('revolution.slide.onloaded', function() {
+
+        //console.log('slider loaded');
+        $('#main-nav .nav-item a[href="#about"]').removeClass('active')
+        $('[data-spy="scroll"]').each(function () {
+          //$(this).scrollspy('refresh')
+          //$(this).scrollspy({ offset: 104 })
+          $('.frontpage #main-nav .nav-item a').on('click', function (e) {
+            //alert (this.hash)
+
+            $('#main-nav .navbar-toggler').removeClass('collapsed')
+            $('#navbarSupportedContent').removeClass('show')
+
+            var target = this.hash
+            var $target = $(target)
+
+            $('html, body').stop().animate({
+              'scrollTop': $target.offset().top - $('#main-nav').outerHeight()
+            }, 900)
+          })
+        })
+
     });
 
 </script>

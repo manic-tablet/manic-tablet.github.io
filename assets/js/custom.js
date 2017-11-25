@@ -22,8 +22,8 @@ $(document).ready(function () {
     }, 900)
   })
 
-  $('#main-nav .nav-item a[href="#about"]').removeClass('active')
-  $('[data-spy="scroll"]').each(function () {
-    var $spy = $(this).scrollspy('refresh')
-  })
+  //$('#main-nav .nav-item a[href="#about"]').removeClass('active')
+  //$('[data-spy="scroll"]').each(function () {
+  //  var $spy = $(this).scrollspy('refresh')
+  //})
 })

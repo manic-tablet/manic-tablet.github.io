@@ -50,7 +50,7 @@
     <meta property="og:description" content="{{ page.summary | replace: '"', '&#8243;' }}" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:image" content="{{ page.collection  | append: "/images/" | append:  page.image | absolute_url }}" />
+    <meta property="og:image" content="{{ page.collection  | prepend: "/assets/images/" | append: "/" | append:  page.image | absolute_url }}" />
     <meta property="og:type" content="product" />
     <meta property="og:brand" content="Apple" />
     <meta property="product:price:amount" content="{{ page.precio }}" />
@@ -78,8 +78,8 @@
           <article class="product" itemscope itemtype="http://schema.com/Product">
 
             <meta itemprop="name" content="{{ page.title }}">
-            <meta itemprop="url" content="{{ page.url }}">
-            <meta itemprop="image" content="{{ page.collection  | append: "/images/" | append:  page.image | absolute_url }}">
+            <meta itemprop="url" content="{{ page.url | absolute_url }}">
+            <meta itemprop="image" content="{{ page.collection  | prepend: "/assets/images/" | append: "/" | append:  page.image | absolute_url }}">
             <meta itemprop="description" content="{{ page.summary | replace: '"', '&#8243;' }}">
 
             <header class="text-center">
@@ -87,12 +87,12 @@
               <p>{{ page.summary }}</p>
             </header>
             <main>
-              <img id="main-img" class="d-block mx-auto img-fluid mb-5" src="/assets/images/productos/{{ page.image }}" alt="{{ page.title }}">
+              <img id="main-img" class="d-block mx-auto img-fluid mb-5" src="{{ page.collection  | prepend: "/assets/images/" | append: "/" | append:  page.image | absolute_url }}" alt="{{ page.title }}">
               {% if page.colores %}
               <div id="thumbnails" class="galeria thumbnails mb-5 d-flex flex-row flex-wrap flex-sm-nowrap justify-content-center text-center">
                 {% for color in page.colores %}
                 <div>
-                  <img class="img-thumbnail" src="/assets/images/productos/{{ color.imagen }}" alt="{{ color.color }}" title="{{ color.color }}">
+                  <img class="img-thumbnail" src="{{ page.collection  | prepend: "/assets/images/" | append: "/" | append:  color.imagen | absolute_url }}" alt="{{ color.color }}" title="{{ color.color }}">
                   <p><b>{{ color.color | capitalize }}</b></p>
                 </div>
                 {% endfor %}

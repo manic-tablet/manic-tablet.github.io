@@ -1,5 +1,5 @@
 ---
-title: "kaixo Hola"
+title: "Kaixo Hola"
 image: slide-1.jpg
 text: En Manic Tablet queremos que aproveches al máximo todas las posibilidades que te ofrecen los Móviles, Tablets, y Ordenadores.
 link: /#about

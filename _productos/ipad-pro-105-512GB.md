@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 10,5" 512 GB'
-summary: 'Pantalla de 10,5" 512 GB de almacenamiento'
+description: 'Pantalla de 10,5" 512 GB de almacenamiento'
 image: ipad-pro-10in-gris-espacial.png
 colores:
   - color: gris espacial

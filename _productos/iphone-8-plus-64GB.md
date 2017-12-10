@@ -1,6 +1,6 @@
 ---
 title: "iPhone 8 Plus 64 GB"
-summary: 'Pantalla de 5,5" 64 GB de almacenamiento'
+description: 'Pantalla de 5,5" 64 GB de almacenamiento'
 image: iphone-8-plus-oro.png
 colores:
   - color: gris espacial

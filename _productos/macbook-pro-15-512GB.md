@@ -1,6 +1,6 @@
 ---
 title: "MacBook Pro de 15 pulgadas"
-summary: "Procesador a 2,9 GHz 256 GB de almacenamiento"
+description: "Procesador a 2,9 GHz 256 GB de almacenamiento"
 image: macbook-pro-15-plata.png
 colores:
   - color: gris

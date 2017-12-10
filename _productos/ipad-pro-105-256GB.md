@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 10,5" 256 GB'
-summary: 'Pantalla de 10,5" 256 GB de almacenamiento'
+description: 'Pantalla de 10,5" 256 GB de almacenamiento'
 image: ipad-pro-10in-oro.png
 colores:
   - color: gris espacial

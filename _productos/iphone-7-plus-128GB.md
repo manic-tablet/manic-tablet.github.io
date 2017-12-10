@@ -1,6 +1,6 @@
 ---
 title: "iPhone 7 Plus 128 GB"
-summary: 'Pantalla de 5,5" 128 GB de almacenamiento'
+description: 'Pantalla de 5,5" 128 GB de almacenamiento'
 image: iphone-7-plus-oro-rosa.png
 colores:
   - color: negro brillante

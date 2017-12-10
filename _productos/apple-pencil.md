@@ -1,6 +1,6 @@
 ---
 title: 'Apple Pencil'
-summary: 'para el iPad Pro'
+description: 'para el iPad Pro'
 image: apple-pencil.png
 colores:
   - color:

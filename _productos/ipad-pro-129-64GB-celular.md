@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 12,9" 64 GB Celular'
-summary: 'Pantalla de 12,9" 64 GB de almacenamiento'
+description: 'Pantalla de 12,9" 64 GB de almacenamiento'
 image: ipad-pro-12in-plata.png
 galeria:  
 colores:

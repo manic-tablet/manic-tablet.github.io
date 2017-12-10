@@ -1,6 +1,6 @@
 ---
 title: "iPhone 8 64 GB"
-summary: 'Pantalla de 4,7" 64 GB de almacenamiento'
+description: 'Pantalla de 4,7" 64 GB de almacenamiento'
 image: iphone-8-plata.png
 colores:
   - color: gris espacial

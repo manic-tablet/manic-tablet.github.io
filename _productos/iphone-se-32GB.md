@@ -1,6 +1,6 @@
 ---
 title: "iPhone SE 32 GB"
-summary: 'Pantalla de 4" 32 GB de almacenamiento'
+description: 'Pantalla de 4" 32 GB de almacenamiento'
 image: iphone-se-gris.png
 colores:
   - color: gris

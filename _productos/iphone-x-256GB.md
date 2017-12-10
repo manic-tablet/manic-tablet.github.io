@@ -1,6 +1,6 @@
 ---
 title: "iPhone X 256 GB"
-summary: 'Pantalla de 5,82" 256 GB de almacenamiento'
+description: 'Pantalla de 5,82" 256 GB de almacenamiento'
 image: iphone-x-plata.png
 colores:
   - color: gris espacial

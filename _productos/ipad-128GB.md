@@ -1,6 +1,6 @@
 ---
 title: 'iPad 128 GB'
-summary: 'Pantalla de 9,7" 128 GB de almacenamiento'
+description: 'Pantalla de 9,7" 128 GB de almacenamiento'
 image: ipad-oro.png
 colores:
   - color: gris espacial

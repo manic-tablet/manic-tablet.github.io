@@ -1,6 +1,6 @@
 ---
 title: "iPhone X 64 GB"
-summary: 'Pantalla de 5,82" 64 GB de almacenamiento'
+description: 'Pantalla de 5,82" 64 GB de almacenamiento'
 image: iphone-x-gris-espacial.png
 colores:
   - color: gris espacial

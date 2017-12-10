@@ -1,6 +1,6 @@
 ---
 title: "iPhone 7 32 GB"
-summary: 'Pantalla de 4,7" 32 GB de almacenamiento'
+description: 'Pantalla de 4,7" 32 GB de almacenamiento'
 image: iphone-7-negro-brillante.png
 colores:
   - color: negro brillante

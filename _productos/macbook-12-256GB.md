@@ -1,6 +1,6 @@
 ---
 title: "MacBook de 12 pulgadas"
-summary: "Procesador a 1,2 GHz 256 GB de almacenamiento"
+description: "Procesador a 1,2 GHz 256 GB de almacenamiento"
 image: macbook-gris.jpg
 colores:
   - color: gris

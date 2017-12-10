@@ -1,6 +1,6 @@
 ---
 title: 'Altavoz Bose Sound Link Mini II'
-summary: 'Altavoz Bluetooth'
+description: 'Altavoz Bluetooth'
 image: altavoz-bose-mini.png
 colores:
   - color:

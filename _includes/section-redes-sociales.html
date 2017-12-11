@@ -1,0 +1,27 @@
+<section id="redes-sociales" class="container-fluid text-center py-10vh">
+  <div class="row">
+    <div class="col">
+
+      <article class="container">
+        <header>
+          <h1 class="text-uppercase">Redes Sociales</h1>
+          <span class="title-border-bottom"></span>
+        </header>
+        <p class="lead">Síguenos en <a href="https://www.facebook.com/{{ site.facebook.app_id }}" class="d-inline-flex mb-1">Facebook</a> e <a href="https://www.instagram.com/{{ site.instagram.username }}" class="d-inline-flex mb-1">Instagram</a></p>
+      </article>
+
+        <div id="instafeed"></div>
+        <script type="text/javascript">
+          var feed = new Instafeed({
+            get: 'user',
+            userId: '{{ site.instagram['user_id'] }}',
+            clientId: '{{ site.instagram['app_id'] }}',
+            accessToken: '{{ site.instagram['access_token'] }}',
+            limit: 16
+          });
+          feed.run();
+        </script>
+
+    </div>
+  </div>
+</section>

@@ -9,7 +9,7 @@ colores:
     imagen: macbook-pro-13-touch-plata.png
 modelo: MacBook Pro
 orden: 3
-precio: 2005
+precio: 1989
 ---
 
 ## Características

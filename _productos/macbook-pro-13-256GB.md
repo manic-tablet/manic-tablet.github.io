@@ -9,7 +9,7 @@ colores:
     imagen: macbook-pro-13-plata.png
 modelo: MacBook Pro
 orden: 2
-precio: 1755
+precio: 1739
 ---
 
 ## Características

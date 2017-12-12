@@ -3,7 +3,7 @@ title: "MacBook Air de 13 pulgadas"
 description: "Procesador a 1,8 GHz 128 GB de almacenamiento"
 image: macbook-air-13.png
 modelo: MacBook Air
-precio: 1105
+precio: 1099
 ---
 
 ## Características

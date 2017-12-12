@@ -14,7 +14,7 @@ colores:
   - color: oro rosa
     imagen: iphone-7-oro-rosa.png
 modelo: iPhone 7
-precio: 639
+precio: 609
 orden: 1
 ---
 

@@ -10,7 +10,7 @@ colores:
   - color: oro
     imagen: iphone-8-plus-oro.png
 modelo: iPhone 8
-precio: 919
+precio: 889
 orden: 3
 ---
 

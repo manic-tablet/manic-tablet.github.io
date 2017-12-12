@@ -10,7 +10,7 @@ colores:
   - color: oro
     imagen: ipad-mini4-oro.png
 modelo: iPad Mini 4
-precio: 642
+precio: 639
 orden: 2
 ---
 

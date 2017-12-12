@@ -3,7 +3,7 @@ title: "iMAc 21,5 pulgadas"
 summary: "Pantalla 4K, procesador a 3,4 GHz, 1 TB de almacenamiento"
 image: imac-21.png
 modelo: iMac
-precio: 1705
+precio: 1689
 ---
 
 ## Características

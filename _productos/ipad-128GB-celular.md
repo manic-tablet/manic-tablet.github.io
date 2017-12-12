@@ -1,6 +1,6 @@
 ---
 title: 'iPad 128 GB Celular'
-summary: 'Pantalla de 9,7" 128 GB de almacenamiento'
+description: 'Pantalla de 9,7" 128 GB de almacenamiento'
 image: ipad-gris-espacial.png
 colores:
   - color: gris espacial

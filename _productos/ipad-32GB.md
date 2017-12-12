@@ -1,6 +1,6 @@
 ---
 title: 'iPad 32 GB'
-summary: 'Pantalla de 9,7" 32 GB de almacenamiento'
+description: 'Pantalla de 9,7" 32 GB de almacenamiento'
 image: ipad-gris-espacial.png
 colores:
   - color: gris espacial

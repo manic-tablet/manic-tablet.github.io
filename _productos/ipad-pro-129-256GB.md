@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 12,9" 256 GB'
-summary: 'Pantalla de 12,9" 256 GB de almacenamiento'
+description: 'Pantalla de 12,9" 256 GB de almacenamiento'
 image: ipad-pro-12in-oro.png
 colores:
   - color: gris espacial

@@ -1,6 +1,6 @@
 ---
 title: 'AirPods'
-summary: 'Auriculares Bluetooth'
+description: 'Auriculares Bluetooth'
 image: airpods.png
 colores:
   - color:

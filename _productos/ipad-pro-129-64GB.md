@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 12,9" 64 GB'
-summary: 'Pantalla de 12,9" 64 GB de almacenamiento'
+description: 'Pantalla de 12,9" 64 GB de almacenamiento'
 image: ipad-pro-12in-gris-espacial.png
 colores:
   - color: gris espacial

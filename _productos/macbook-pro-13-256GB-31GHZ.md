@@ -1,6 +1,6 @@
 ---
 title: "MacBook Pro de 13 pulgadas"
-summary: "Procesador a 3,1 GHz 256 GB de almacenamiento"
+description: "Procesador a 3,1 GHz 256 GB de almacenamiento"
 image: macbook-pro-13-touch-gris.png
 colores:
   - color: gris

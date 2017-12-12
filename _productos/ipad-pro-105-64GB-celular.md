@@ -1,6 +1,6 @@
 ---
 title: 'iPad Pro 10,5" 64 GB Celular'
-summary: 'Pantalla de 10,5" 64 GB de almacenamiento'
+description: 'Pantalla de 10,5" 64 GB de almacenamiento'
 image: ipad-pro-10in-plata.png
 galeria:
 colores:

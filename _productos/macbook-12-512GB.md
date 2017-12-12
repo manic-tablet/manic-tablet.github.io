@@ -1,6 +1,6 @@
 ---
 title: "MacBook de 12 pulgadas"
-summary: "Procesador a 1,3 GHz 512 GB de almacenamiento"
+description: "Procesador a 1,3 GHz 512 GB de almacenamiento"
 image: macbook-plata.jpg
 colores:
   - color: gris

@@ -1,6 +1,6 @@
 ---
 title: 'Earpods'
-summary: 'Auriculares'
+description: 'Auriculares'
 image: earpods.jpg
 modelo: Accesorios
 precio: '30'

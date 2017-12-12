@@ -1,6 +1,6 @@
 ---
 title: 'iPad Mini 4 128 GB Celular'
-summary: 'Pantalla de 7,9" 128 GB de almacenamiento'
+description: 'Pantalla de 7,9" 128 GB de almacenamiento'
 image: ipad-mini4-plata.png
 colores:
   - color: gris espacial

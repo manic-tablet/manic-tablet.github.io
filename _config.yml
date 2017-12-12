@@ -21,10 +21,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shop.manictablet.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+lang: es_ES
 facebook:
   app_id: manictablet
 instagram:
   username: manictablet
+  user_id: 1459093497
+  app_id: ef5cf286140f4046b39652cb8f29d1dd
+  access_token: 1459093497.ef5cf28.91e612a8adeb4743b5fc1c96ef830f18
 
 author: manictablet
 

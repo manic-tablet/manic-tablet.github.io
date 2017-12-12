@@ -1,6 +1,6 @@
 ---
 title: 'Apple TV 4K 32 GB'
-summary: 'Capacidad 32 GB'
+description: 'Capacidad 32 GB'
 image: apple-tv.png
 colores:
   - color:

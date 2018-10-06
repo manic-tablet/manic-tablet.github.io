@@ -1,6 +1,6 @@
 ---
 title: Móviles
 description: "Gama iPhone"
-image: iphone.png
+image: iphonexs.jpg
 orden: 1
 ---

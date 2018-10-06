@@ -1,6 +1,6 @@
 ---
 title: Accesorios
 description: "Gama de accesorios"
-image: accesorios.png
+image: pencil.jpg
 orden: 3
 ---

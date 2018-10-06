@@ -1,6 +1,6 @@
 ---
 title: Ordenadores
 description: "Gama ordenadores"
-image: imac.png
+image: imacn.jpg
 orden: 0
 ---

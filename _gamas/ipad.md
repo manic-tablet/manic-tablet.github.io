@@ -1,6 +1,6 @@
 ---
 title: Tablets
 description: "Gama iPad"
-image: ipad.png
+image: ipadnew.jpg
 orden: 2
 ---
